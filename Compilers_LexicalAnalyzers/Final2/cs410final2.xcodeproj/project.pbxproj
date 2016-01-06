@@ -1,0 +1,1756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A179786D184D5C0D0064C7CB /* cs410LexPortion.l in Sources */ = {isa = PBXBuildFile; fileRef = A179786C184D5C0D0064C7CB /* cs410LexPortion.l */; };
+		A179786F184D5C0D0064C7CB /* cs410final2.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A179786E184D5C0D0064C7CB /* cs410final2.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A1797867184D5C0D0064C7CB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				A179786F184D5C0D0064C7CB /* cs410final2.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A1797869184D5C0D0064C7CB /* cs410final2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cs410final2; sourceTree = BUILT_PRODUCTS_DIR; };
+		A179786C184D5C0D0064C7CB /* cs410LexPortion.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = cs410LexPortion.l; sourceTree = "<group>"; };
+		A179786E184D5C0D0064C7CB /* cs410final2.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = cs410final2.1; sourceTree = "<group>"; };
+		A1797878184D69540064C7CB /* #assignment1.l# */ = {isa = PBXFileReference; lastKnownFileType = text; path = "#assignment1.l#"; sourceTree = "<group>"; };
+		A179787A184D69540064C7CB /* buf.Po */ = {isa = PBXFileReference; lastKnownFileType = text; path = buf.Po; sourceTree = "<group>"; };
+		A179787B184D69540064C7CB /* ccl.Po */ = {isa = PBXFileReference; lastKnownFileType = text; path = ccl.Po; sourceTree = "<group>"; };
+		A179787C184D69540064C7CB /* dfa.Po */ = {isa = PBXFileReference; lastKnownFileType = text; path = dfa.Po; sourceTree = "<group>"; };
+		A179787D184D69540064C7CB /* ecs.Po */ = {isa = PBXFileReference; lastKnownFileType = text; path = ecs.Po; sourceTree = "<group>"; };
+		A179787E184D69540064C7CB /* filter.Po */ = {isa = PBXFileReference; lastKnownFileType = text; path = filter.Po; sourceTree = "<group>"; };
+		A179787F184D69540064C7CB /* gen.Po */ = {isa = PBXFileReference; lastKnownFileType = text; path = gen.Po; sourceTree = "<group>"; };
+		A1797880184D69540064C7CB /* libfl_pic_a-libmain.Po */ = {isa = PBXFileReference; lastKnownFileType = text; path = "libfl_pic_a-libmain.Po"; sourceTree = "<group>"; };
+		A1797881184D69540064C7CB /* libfl_pic_a-libyywrap.Po */ = {isa = PBXFileReference; lastKnownFileType = text; path = "libfl_pic_a-libyywrap.Po"; sourceTree = "<group>"; };
+		A1797882184D69540064C7CB /* libmain.Po */ = {isa = PBXFileReference; lastKnownFileType = text; path = libmain.Po; sourceTree = "<group>"; };
+		A1797883184D69540064C7CB /* libyywrap.Po */ = {isa = PBXFileReference; lastKnownFileType = text; path = libyywrap.Po; sourceTree = "<group>"; };
+		A1797884184D69540064C7CB /* main.Po */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.Po; sourceTree = "<group>"; };
+		A1797885184D69540064C7CB /* misc.Po */ = {isa = PBXFileReference; lastKnownFileType = text; path = misc.Po; sourceTree = "<group>"; };
+		A1797886184D69540064C7CB /* nfa.Po */ = {isa = PBXFileReference; lastKnownFileType = text; path = nfa.Po; sourceTree = "<group>"; };
+		A1797887184D69540064C7CB /* options.Po */ = {isa = PBXFileReference; lastKnownFileType = text; path = options.Po; sourceTree = "<group>"; };
+		A1797888184D69540064C7CB /* parse.Po */ = {isa = PBXFileReference; lastKnownFileType = text; path = parse.Po; sourceTree = "<group>"; };
+		A1797889184D69540064C7CB /* regex.Po */ = {isa = PBXFileReference; lastKnownFileType = text; path = regex.Po; sourceTree = "<group>"; };
+		A179788A184D69540064C7CB /* scan.Po */ = {isa = PBXFileReference; lastKnownFileType = text; path = scan.Po; sourceTree = "<group>"; };
+		A179788B184D69540064C7CB /* scanflags.Po */ = {isa = PBXFileReference; lastKnownFileType = text; path = scanflags.Po; sourceTree = "<group>"; };
+		A179788C184D69540064C7CB /* scanopt.Po */ = {isa = PBXFileReference; lastKnownFileType = text; path = scanopt.Po; sourceTree = "<group>"; };
+		A179788D184D69540064C7CB /* skel.Po */ = {isa = PBXFileReference; lastKnownFileType = text; path = skel.Po; sourceTree = "<group>"; };
+		A179788E184D69540064C7CB /* sym.Po */ = {isa = PBXFileReference; lastKnownFileType = text; path = sym.Po; sourceTree = "<group>"; };
+		A179788F184D69540064C7CB /* tables.Po */ = {isa = PBXFileReference; lastKnownFileType = text; path = tables.Po; sourceTree = "<group>"; };
+		A1797890184D69540064C7CB /* tables_shared.Po */ = {isa = PBXFileReference; lastKnownFileType = text; path = tables_shared.Po; sourceTree = "<group>"; };
+		A1797891184D69540064C7CB /* tblcmp.Po */ = {isa = PBXFileReference; lastKnownFileType = text; path = tblcmp.Po; sourceTree = "<group>"; };
+		A1797892184D69540064C7CB /* yylex.Po */ = {isa = PBXFileReference; lastKnownFileType = text; path = yylex.Po; sourceTree = "<group>"; };
+		A1797893184D69540064C7CB /* .indent.pro */ = {isa = PBXFileReference; lastKnownFileType = text; path = .indent.pro; sourceTree = "<group>"; };
+		A1797894184D69540064C7CB /* ABOUT-NLS */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ABOUT-NLS"; sourceTree = "<group>"; };
+		A1797895184D69540064C7CB /* aclocal.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = aclocal.m4; sourceTree = "<group>"; };
+		A1797896184D69540064C7CB /* AUTHORS */ = {isa = PBXFileReference; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		A1797897184D69540064C7CB /* autogen.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = autogen.sh; sourceTree = "<group>"; };
+		A1797898184D69540064C7CB /* buf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = buf.c; sourceTree = "<group>"; };
+		A1797899184D69540064C7CB /* buf.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = buf.o; sourceTree = "<group>"; };
+		A179789A184D69540064C7CB /* ccl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ccl.c; sourceTree = "<group>"; };
+		A179789B184D69540064C7CB /* ccl.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ccl.o; sourceTree = "<group>"; };
+		A179789C184D69540064C7CB /* ChangeLog */ = {isa = PBXFileReference; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		A179789D184D69540064C7CB /* compile */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = compile; sourceTree = "<group>"; };
+		A179789E184D69540064C7CB /* conf.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = conf.in; sourceTree = "<group>"; };
+		A179789F184D69540064C7CB /* config.guess */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.guess; sourceTree = "<group>"; };
+		A17978A0184D69540064C7CB /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		A17978A1184D69540064C7CB /* config.log */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.log; sourceTree = "<group>"; };
+		A17978A2184D69540064C7CB /* config.rpath */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.rpath; sourceTree = "<group>"; };
+		A17978A3184D69540064C7CB /* config.status */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.status; sourceTree = "<group>"; };
+		A17978A4184D69540064C7CB /* config.sub */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = config.sub; sourceTree = "<group>"; };
+		A17978A5184D69540064C7CB /* configure */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = configure; sourceTree = "<group>"; };
+		A17978A6184D69540064C7CB /* configure.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = configure.in; sourceTree = "<group>"; };
+		A17978A7184D69540064C7CB /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		A17978A8184D69540064C7CB /* depcomp */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = depcomp; sourceTree = "<group>"; };
+		A17978A9184D69540064C7CB /* dfa.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = dfa.c; sourceTree = "<group>"; };
+		A17978AA184D69540064C7CB /* dfa.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = dfa.o; sourceTree = "<group>"; };
+		A17978AC184D69540064C7CB /* flex.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = flex.1; sourceTree = "<group>"; };
+		A17978AD184D69540064C7CB /* flex.info */ = {isa = PBXFileReference; lastKnownFileType = text; path = flex.info; sourceTree = "<group>"; };
+		A17978AE184D69540064C7CB /* flex.info-1 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "flex.info-1"; sourceTree = "<group>"; };
+		A17978AF184D69540064C7CB /* flex.info-2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "flex.info-2"; sourceTree = "<group>"; };
+		A17978B0184D69540064C7CB /* flex.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = flex.pdf; sourceTree = "<group>"; };
+		A17978B1184D69540064C7CB /* flex.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = flex.texi; sourceTree = "<group>"; };
+		A17978B2184D69540064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A17978B3184D69540064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A17978B4184D69540064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A17978B5184D69540064C7CB /* mdate-sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "mdate-sh"; sourceTree = "<group>"; };
+		A17978B6184D69540064C7CB /* stamp-vti */ = {isa = PBXFileReference; lastKnownFileType = text; path = "stamp-vti"; sourceTree = "<group>"; };
+		A17978B7184D69540064C7CB /* texinfo.tex */ = {isa = PBXFileReference; lastKnownFileType = text; path = texinfo.tex; sourceTree = "<group>"; };
+		A17978B8184D69540064C7CB /* version.texi */ = {isa = PBXFileReference; lastKnownFileType = text; path = version.texi; sourceTree = "<group>"; };
+		A17978B9184D69540064C7CB /* ecs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ecs.c; sourceTree = "<group>"; };
+		A17978BA184D69540064C7CB /* ecs.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = ecs.o; sourceTree = "<group>"; };
+		A17978BC184D69540064C7CB /* debflex.awk */ = {isa = PBXFileReference; lastKnownFileType = text; path = debflex.awk; sourceTree = "<group>"; };
+		A17978BE184D69540064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A17978BF184D69540064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A17978C0184D69540064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A17978C1184D69540064C7CB /* mywc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mywc.c; sourceTree = "<group>"; };
+		A17978C2184D69540064C7CB /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		A17978C3184D69540064C7CB /* wc1.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = wc1.l; sourceTree = "<group>"; };
+		A17978C4184D69540064C7CB /* wc2.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = wc2.l; sourceTree = "<group>"; };
+		A17978C5184D69540064C7CB /* wc3.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = wc3.l; sourceTree = "<group>"; };
+		A17978C6184D69540064C7CB /* wc4.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = wc4.l; sourceTree = "<group>"; };
+		A17978C7184D69540064C7CB /* wc5.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = wc5.l; sourceTree = "<group>"; };
+		A17978C8184D69540064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A17978C9184D69540064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A17978CA184D69540064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A17978CC184D69540064C7CB /* cat.lex */ = {isa = PBXFileReference; lastKnownFileType = text; path = cat.lex; sourceTree = "<group>"; };
+		A17978CD184D69540064C7CB /* ChangeLog */ = {isa = PBXFileReference; lastKnownFileType = text; path = ChangeLog; sourceTree = "<group>"; };
+		A17978CE184D69540064C7CB /* dates.lex */ = {isa = PBXFileReference; lastKnownFileType = text; path = dates.lex; sourceTree = "<group>"; };
+		A17978CF184D69540064C7CB /* datetest.dat */ = {isa = PBXFileReference; lastKnownFileType = text; path = datetest.dat; sourceTree = "<group>"; };
+		A17978D0184D69540064C7CB /* eof_rules.lex */ = {isa = PBXFileReference; lastKnownFileType = text; path = eof_rules.lex; sourceTree = "<group>"; };
+		A17978D1184D69540064C7CB /* eof_test01.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = eof_test01.txt; sourceTree = "<group>"; };
+		A17978D2184D69540064C7CB /* eof_test02.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = eof_test02.txt; sourceTree = "<group>"; };
+		A17978D3184D69540064C7CB /* eof_test03.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = eof_test03.txt; sourceTree = "<group>"; };
+		A17978D4184D69540064C7CB /* expr.lex */ = {isa = PBXFileReference; lastKnownFileType = text; path = expr.lex; sourceTree = "<group>"; };
+		A17978D5184D69540064C7CB /* expr.y */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.yacc; path = expr.y; sourceTree = "<group>"; };
+		A17978D6184D69540064C7CB /* front.lex */ = {isa = PBXFileReference; lastKnownFileType = text; path = front.lex; sourceTree = "<group>"; };
+		A17978D7184D69540064C7CB /* front.y */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.yacc; path = front.y; sourceTree = "<group>"; };
+		A17978D8184D69540064C7CB /* j2t.lex */ = {isa = PBXFileReference; lastKnownFileType = text; path = j2t.lex; sourceTree = "<group>"; };
+		A17978D9184D69540064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A17978DA184D69540064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A17978DB184D69540064C7CB /* Makefile.examples */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.examples; sourceTree = "<group>"; };
+		A17978DC184D69540064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A17978DD184D69540064C7CB /* myname.lex */ = {isa = PBXFileReference; lastKnownFileType = text; path = myname.lex; sourceTree = "<group>"; };
+		A17978DE184D69540064C7CB /* myname.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = myname.txt; sourceTree = "<group>"; };
+		A17978DF184D69540064C7CB /* myname2.lex */ = {isa = PBXFileReference; lastKnownFileType = text; path = myname2.lex; sourceTree = "<group>"; };
+		A17978E0184D69540064C7CB /* numbers.lex */ = {isa = PBXFileReference; lastKnownFileType = text; path = numbers.lex; sourceTree = "<group>"; };
+		A17978E1184D69540064C7CB /* pas_include.lex */ = {isa = PBXFileReference; lastKnownFileType = text; path = pas_include.lex; sourceTree = "<group>"; };
+		A17978E2184D69540064C7CB /* pascal.lex */ = {isa = PBXFileReference; lastKnownFileType = text; path = pascal.lex; sourceTree = "<group>"; };
+		A17978E3184D69540064C7CB /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		A17978E4184D69540064C7CB /* reject.lex */ = {isa = PBXFileReference; lastKnownFileType = text; path = reject.lex; sourceTree = "<group>"; };
+		A17978E5184D69540064C7CB /* replace.lex */ = {isa = PBXFileReference; lastKnownFileType = text; path = replace.lex; sourceTree = "<group>"; };
+		A17978E6184D69540064C7CB /* string1.lex */ = {isa = PBXFileReference; lastKnownFileType = text; path = string1.lex; sourceTree = "<group>"; };
+		A17978E7184D69540064C7CB /* string2.lex */ = {isa = PBXFileReference; lastKnownFileType = text; path = string2.lex; sourceTree = "<group>"; };
+		A17978E8184D69540064C7CB /* strtest.dat */ = {isa = PBXFileReference; lastKnownFileType = text; path = strtest.dat; sourceTree = "<group>"; };
+		A17978E9184D69540064C7CB /* unput.lex */ = {isa = PBXFileReference; lastKnownFileType = text; path = unput.lex; sourceTree = "<group>"; };
+		A17978EA184D69540064C7CB /* user_act.lex */ = {isa = PBXFileReference; lastKnownFileType = text; path = user_act.lex; sourceTree = "<group>"; };
+		A17978EB184D69540064C7CB /* userinit.lex */ = {isa = PBXFileReference; lastKnownFileType = text; path = userinit.lex; sourceTree = "<group>"; };
+		A17978EC184D69540064C7CB /* wc.lex */ = {isa = PBXFileReference; lastKnownFileType = text; path = wc.lex; sourceTree = "<group>"; };
+		A17978ED184D69540064C7CB /* yymore.lex */ = {isa = PBXFileReference; lastKnownFileType = text; path = yymore.lex; sourceTree = "<group>"; };
+		A17978EE184D69540064C7CB /* yymore2.lex */ = {isa = PBXFileReference; lastKnownFileType = text; path = yymore2.lex; sourceTree = "<group>"; };
+		A17978EF184D69540064C7CB /* yymoretest.dat */ = {isa = PBXFileReference; lastKnownFileType = text; path = yymoretest.dat; sourceTree = "<group>"; };
+		A17978F0184D69540064C7CB /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		A17978F1184D69540064C7CB /* testxxLexer.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = testxxLexer.l; sourceTree = "<group>"; };
+		A17978F2184D69540064C7CB /* filter.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = filter.c; sourceTree = "<group>"; };
+		A17978F3184D69540064C7CB /* filter.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = filter.o; sourceTree = "<group>"; };
+		A17978F4184D69540064C7CB /* flex */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = flex; sourceTree = "<group>"; };
+		A17978F5184D69540064C7CB /* flex.skl */ = {isa = PBXFileReference; lastKnownFileType = text; path = flex.skl; sourceTree = "<group>"; };
+		A17978F6184D69540064C7CB /* flexdef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flexdef.h; sourceTree = "<group>"; };
+		A17978F7184D69540064C7CB /* flexint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = flexint.h; sourceTree = "<group>"; };
+		A17978F8184D69540064C7CB /* FlexLexer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlexLexer.h; sourceTree = "<group>"; };
+		A17978F9184D69540064C7CB /* gen.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gen.c; sourceTree = "<group>"; };
+		A17978FA184D69540064C7CB /* gen.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = gen.o; sourceTree = "<group>"; };
+		A17978FB184D69540064C7CB /* gettext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gettext.h; sourceTree = "<group>"; };
+		A17978FC184D69540064C7CB /* INSTALL */ = {isa = PBXFileReference; lastKnownFileType = text; path = INSTALL; sourceTree = "<group>"; };
+		A17978FD184D69550064C7CB /* install-sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "install-sh"; sourceTree = "<group>"; };
+		A1797900184D69550064C7CB /* lib.Po */ = {isa = PBXFileReference; lastKnownFileType = text; path = lib.Po; sourceTree = "<group>"; };
+		A1797901184D69550064C7CB /* malloc.Po */ = {isa = PBXFileReference; lastKnownFileType = text; path = malloc.Po; sourceTree = "<group>"; };
+		A1797902184D69550064C7CB /* realloc.Po */ = {isa = PBXFileReference; lastKnownFileType = text; path = realloc.Po; sourceTree = "<group>"; };
+		A1797903184D69550064C7CB /* lib.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lib.c; sourceTree = "<group>"; };
+		A1797904184D69550064C7CB /* lib.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = lib.o; sourceTree = "<group>"; };
+		A1797905184D69550064C7CB /* libcompat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcompat.a; sourceTree = "<group>"; };
+		A1797906184D69550064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797907184D69550064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797908184D69550064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797909184D69550064C7CB /* malloc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = malloc.c; sourceTree = "<group>"; };
+		A179790A184D69550064C7CB /* realloc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = realloc.c; sourceTree = "<group>"; };
+		A179790B184D69550064C7CB /* libfl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfl.a; sourceTree = "<group>"; };
+		A179790C184D69550064C7CB /* libfl_pic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libfl_pic.a; sourceTree = "<group>"; };
+		A179790D184D69550064C7CB /* libfl_pic_a-libmain.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libfl_pic_a-libmain.o"; sourceTree = "<group>"; };
+		A179790E184D69550064C7CB /* libfl_pic_a-libyywrap.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "libfl_pic_a-libyywrap.o"; sourceTree = "<group>"; };
+		A179790F184D69550064C7CB /* libmain.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = libmain.c; sourceTree = "<group>"; };
+		A1797910184D69550064C7CB /* libmain.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = libmain.o; sourceTree = "<group>"; };
+		A1797911184D69550064C7CB /* libyywrap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = libyywrap.c; sourceTree = "<group>"; };
+		A1797912184D69550064C7CB /* libyywrap.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = libyywrap.o; sourceTree = "<group>"; };
+		A1797914184D69550064C7CB /* gettext.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = gettext.m4; sourceTree = "<group>"; };
+		A1797915184D69550064C7CB /* iconv.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = iconv.m4; sourceTree = "<group>"; };
+		A1797916184D69550064C7CB /* lib-ld.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "lib-ld.m4"; sourceTree = "<group>"; };
+		A1797917184D69550064C7CB /* lib-link.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "lib-link.m4"; sourceTree = "<group>"; };
+		A1797918184D69550064C7CB /* lib-prefix.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "lib-prefix.m4"; sourceTree = "<group>"; };
+		A1797919184D69550064C7CB /* nls.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = nls.m4; sourceTree = "<group>"; };
+		A179791A184D69550064C7CB /* po.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = po.m4; sourceTree = "<group>"; };
+		A179791B184D69550064C7CB /* progtest.m4 */ = {isa = PBXFileReference; lastKnownFileType = text; path = progtest.m4; sourceTree = "<group>"; };
+		A179791C184D69550064C7CB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A179791D184D69550064C7CB /* main.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = main.o; sourceTree = "<group>"; };
+		A179791E184D69550064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A179791F184D69550064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797920184D69550064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797921184D69550064C7CB /* misc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = misc.c; sourceTree = "<group>"; };
+		A1797922184D69550064C7CB /* misc.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = misc.o; sourceTree = "<group>"; };
+		A1797923184D69550064C7CB /* missing */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = missing; sourceTree = "<group>"; };
+		A1797924184D69550064C7CB /* mkinstalldirs */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = mkinstalldirs; sourceTree = "<group>"; };
+		A1797925184D69550064C7CB /* mkskel.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = mkskel.sh; sourceTree = "<group>"; };
+		A1797926184D69550064C7CB /* NEWS */ = {isa = PBXFileReference; lastKnownFileType = text; path = NEWS; sourceTree = "<group>"; };
+		A1797927184D69550064C7CB /* nfa.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = nfa.c; sourceTree = "<group>"; };
+		A1797928184D69550064C7CB /* nfa.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = nfa.o; sourceTree = "<group>"; };
+		A1797929184D69550064C7CB /* ONEWS */ = {isa = PBXFileReference; lastKnownFileType = text; path = ONEWS; sourceTree = "<group>"; };
+		A179792A184D69550064C7CB /* options.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = options.c; sourceTree = "<group>"; };
+		A179792B184D69550064C7CB /* options.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = options.h; sourceTree = "<group>"; };
+		A179792C184D69550064C7CB /* options.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = options.o; sourceTree = "<group>"; };
+		A179792D184D69550064C7CB /* parse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = parse.c; sourceTree = "<group>"; };
+		A179792E184D69550064C7CB /* parse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = parse.h; sourceTree = "<group>"; };
+		A179792F184D69550064C7CB /* parse.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = parse.o; sourceTree = "<group>"; };
+		A1797930184D69550064C7CB /* parse.y */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.yacc; path = parse.y; sourceTree = "<group>"; };
+		A1797932184D69550064C7CB /* boldquot.sed */ = {isa = PBXFileReference; lastKnownFileType = text; path = boldquot.sed; sourceTree = "<group>"; };
+		A1797933184D69550064C7CB /* ca.gmo */ = {isa = PBXFileReference; lastKnownFileType = file; path = ca.gmo; sourceTree = "<group>"; };
+		A1797934184D69550064C7CB /* ca.po */ = {isa = PBXFileReference; lastKnownFileType = text; path = ca.po; sourceTree = "<group>"; };
+		A1797935184D69550064C7CB /* da.gmo */ = {isa = PBXFileReference; lastKnownFileType = file; path = da.gmo; sourceTree = "<group>"; };
+		A1797936184D69550064C7CB /* da.po */ = {isa = PBXFileReference; lastKnownFileType = text; path = da.po; sourceTree = "<group>"; };
+		A1797937184D69550064C7CB /* de.gmo */ = {isa = PBXFileReference; lastKnownFileType = file; path = de.gmo; sourceTree = "<group>"; };
+		A1797938184D69550064C7CB /* de.po */ = {isa = PBXFileReference; lastKnownFileType = text; path = de.po; sourceTree = "<group>"; };
+		A1797939184D69550064C7CB /* en@boldquot.header */ = {isa = PBXFileReference; lastKnownFileType = text; path = "en@boldquot.header"; sourceTree = "<group>"; };
+		A179793A184D69550064C7CB /* en@quot.header */ = {isa = PBXFileReference; lastKnownFileType = text; path = "en@quot.header"; sourceTree = "<group>"; };
+		A179793B184D69550064C7CB /* es.gmo */ = {isa = PBXFileReference; lastKnownFileType = file; path = es.gmo; sourceTree = "<group>"; };
+		A179793C184D69550064C7CB /* es.po */ = {isa = PBXFileReference; lastKnownFileType = text; path = es.po; sourceTree = "<group>"; };
+		A179793D184D69550064C7CB /* fi.gmo */ = {isa = PBXFileReference; lastKnownFileType = file; path = fi.gmo; sourceTree = "<group>"; };
+		A179793E184D69550064C7CB /* fi.po */ = {isa = PBXFileReference; lastKnownFileType = text; path = fi.po; sourceTree = "<group>"; };
+		A179793F184D69550064C7CB /* flex.pot */ = {isa = PBXFileReference; lastKnownFileType = text; path = flex.pot; sourceTree = "<group>"; };
+		A1797940184D69550064C7CB /* fr.gmo */ = {isa = PBXFileReference; lastKnownFileType = file; path = fr.gmo; sourceTree = "<group>"; };
+		A1797941184D69550064C7CB /* fr.po */ = {isa = PBXFileReference; lastKnownFileType = text; path = fr.po; sourceTree = "<group>"; };
+		A1797942184D69550064C7CB /* ga.gmo */ = {isa = PBXFileReference; lastKnownFileType = file; path = ga.gmo; sourceTree = "<group>"; };
+		A1797943184D69550064C7CB /* ga.po */ = {isa = PBXFileReference; lastKnownFileType = text; path = ga.po; sourceTree = "<group>"; };
+		A1797944184D69550064C7CB /* insert-header.sin */ = {isa = PBXFileReference; lastKnownFileType = text; path = "insert-header.sin"; sourceTree = "<group>"; };
+		A1797945184D69550064C7CB /* ko.gmo */ = {isa = PBXFileReference; lastKnownFileType = file; path = ko.gmo; sourceTree = "<group>"; };
+		A1797946184D69550064C7CB /* ko.po */ = {isa = PBXFileReference; lastKnownFileType = text; path = ko.po; sourceTree = "<group>"; };
+		A1797947184D69550064C7CB /* LINGUAS */ = {isa = PBXFileReference; lastKnownFileType = text; path = LINGUAS; sourceTree = "<group>"; };
+		A1797948184D69550064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797949184D69550064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A179794A184D69550064C7CB /* Makefile.in.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in.in; sourceTree = "<group>"; };
+		A179794B184D69550064C7CB /* Makevars */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makevars; sourceTree = "<group>"; };
+		A179794C184D69550064C7CB /* nl.gmo */ = {isa = PBXFileReference; lastKnownFileType = file; path = nl.gmo; sourceTree = "<group>"; };
+		A179794D184D69550064C7CB /* nl.po */ = {isa = PBXFileReference; lastKnownFileType = text; path = nl.po; sourceTree = "<group>"; };
+		A179794E184D69550064C7CB /* pl.gmo */ = {isa = PBXFileReference; lastKnownFileType = file; path = pl.gmo; sourceTree = "<group>"; };
+		A179794F184D69550064C7CB /* pl.po */ = {isa = PBXFileReference; lastKnownFileType = text; path = pl.po; sourceTree = "<group>"; };
+		A1797950184D69550064C7CB /* POTFILES */ = {isa = PBXFileReference; lastKnownFileType = text; path = POTFILES; sourceTree = "<group>"; };
+		A1797951184D69550064C7CB /* POTFILES.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = POTFILES.in; sourceTree = "<group>"; };
+		A1797952184D69550064C7CB /* pt_BR.gmo */ = {isa = PBXFileReference; lastKnownFileType = file; path = pt_BR.gmo; sourceTree = "<group>"; };
+		A1797953184D69550064C7CB /* pt_BR.po */ = {isa = PBXFileReference; lastKnownFileType = text; path = pt_BR.po; sourceTree = "<group>"; };
+		A1797954184D69550064C7CB /* quot.sed */ = {isa = PBXFileReference; lastKnownFileType = text; path = quot.sed; sourceTree = "<group>"; };
+		A1797955184D69550064C7CB /* remove-potcdate.sin */ = {isa = PBXFileReference; lastKnownFileType = text; path = "remove-potcdate.sin"; sourceTree = "<group>"; };
+		A1797956184D69550064C7CB /* ro.gmo */ = {isa = PBXFileReference; lastKnownFileType = file; path = ro.gmo; sourceTree = "<group>"; };
+		A1797957184D69550064C7CB /* ro.po */ = {isa = PBXFileReference; lastKnownFileType = text; path = ro.po; sourceTree = "<group>"; };
+		A1797958184D69550064C7CB /* ru.gmo */ = {isa = PBXFileReference; lastKnownFileType = file; path = ru.gmo; sourceTree = "<group>"; };
+		A1797959184D69550064C7CB /* ru.po */ = {isa = PBXFileReference; lastKnownFileType = text; path = ru.po; sourceTree = "<group>"; };
+		A179795A184D69550064C7CB /* Rules-quot */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Rules-quot"; sourceTree = "<group>"; };
+		A179795B184D69550064C7CB /* stamp-po */ = {isa = PBXFileReference; lastKnownFileType = text; path = "stamp-po"; sourceTree = "<group>"; };
+		A179795C184D69550064C7CB /* sv.gmo */ = {isa = PBXFileReference; lastKnownFileType = file; path = sv.gmo; sourceTree = "<group>"; };
+		A179795D184D69550064C7CB /* sv.po */ = {isa = PBXFileReference; lastKnownFileType = text; path = sv.po; sourceTree = "<group>"; };
+		A179795E184D69550064C7CB /* tr.gmo */ = {isa = PBXFileReference; lastKnownFileType = file; path = tr.gmo; sourceTree = "<group>"; };
+		A179795F184D69550064C7CB /* tr.po */ = {isa = PBXFileReference; lastKnownFileType = text; path = tr.po; sourceTree = "<group>"; };
+		A1797960184D69550064C7CB /* vi.gmo */ = {isa = PBXFileReference; lastKnownFileType = file; path = vi.gmo; sourceTree = "<group>"; };
+		A1797961184D69550064C7CB /* vi.po */ = {isa = PBXFileReference; lastKnownFileType = text; path = vi.po; sourceTree = "<group>"; };
+		A1797962184D69550064C7CB /* zh_CN.gmo */ = {isa = PBXFileReference; lastKnownFileType = file; path = zh_CN.gmo; sourceTree = "<group>"; };
+		A1797963184D69550064C7CB /* zh_CN.po */ = {isa = PBXFileReference; lastKnownFileType = text; path = zh_CN.po; sourceTree = "<group>"; };
+		A1797964184D69550064C7CB /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		A1797965184D69550064C7CB /* README-alpha */ = {isa = PBXFileReference; lastKnownFileType = text; path = "README-alpha"; sourceTree = "<group>"; };
+		A1797966184D69550064C7CB /* README.cvs */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.cvs; sourceTree = "<group>"; };
+		A1797967184D69550064C7CB /* regex.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = regex.c; sourceTree = "<group>"; };
+		A1797968184D69550064C7CB /* regex.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = regex.o; sourceTree = "<group>"; };
+		A1797969184D69550064C7CB /* scan.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = scan.c; sourceTree = "<group>"; };
+		A179796A184D69550064C7CB /* scan.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scan.l; sourceTree = "<group>"; };
+		A179796B184D69550064C7CB /* scan.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = scan.o; sourceTree = "<group>"; };
+		A179796C184D69550064C7CB /* scanflags.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = scanflags.c; sourceTree = "<group>"; };
+		A179796D184D69550064C7CB /* scanflags.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = scanflags.o; sourceTree = "<group>"; };
+		A179796E184D69550064C7CB /* scanopt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = scanopt.c; sourceTree = "<group>"; };
+		A179796F184D69550064C7CB /* scanopt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = scanopt.h; sourceTree = "<group>"; };
+		A1797970184D69550064C7CB /* scanopt.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = scanopt.o; sourceTree = "<group>"; };
+		A1797971184D69550064C7CB /* skel.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = skel.c; sourceTree = "<group>"; };
+		A1797972184D69550064C7CB /* skel.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = skel.o; sourceTree = "<group>"; };
+		A1797973184D69550064C7CB /* stamp-h1 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "stamp-h1"; sourceTree = "<group>"; };
+		A1797974184D69550064C7CB /* sym.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = sym.c; sourceTree = "<group>"; };
+		A1797975184D69550064C7CB /* sym.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = sym.o; sourceTree = "<group>"; };
+		A1797976184D69550064C7CB /* tables.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tables.c; sourceTree = "<group>"; };
+		A1797977184D69550064C7CB /* tables.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tables.h; sourceTree = "<group>"; };
+		A1797978184D69550064C7CB /* tables.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tables.o; sourceTree = "<group>"; };
+		A1797979184D69550064C7CB /* tables_shared.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tables_shared.c; sourceTree = "<group>"; };
+		A179797A184D69550064C7CB /* tables_shared.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tables_shared.h; sourceTree = "<group>"; };
+		A179797B184D69550064C7CB /* tables_shared.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tables_shared.o; sourceTree = "<group>"; };
+		A179797C184D69550064C7CB /* tblcmp.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = tblcmp.c; sourceTree = "<group>"; };
+		A179797D184D69550064C7CB /* tblcmp.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = tblcmp.o; sourceTree = "<group>"; };
+		A179797F184D69550064C7CB /* create-test */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "create-test"; sourceTree = "<group>"; };
+		A1797980184D69550064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797981184D69550064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797982184D69550064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797983184D69550064C7CB /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		A1797985184D69550064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797986184D69550064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797987184D69550064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797988184D69550064C7CB /* parser.y */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.yacc; path = parser.y; sourceTree = "<group>"; };
+		A1797989184D69550064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A179798A184D69550064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A179798C184D69550064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A179798D184D69550064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A179798E184D69550064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A179798F184D69550064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A1797990184D69550064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A1797992184D69550064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797993184D69550064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797994184D69550064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797995184D69550064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A1797996184D69550064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A1797998184D69550064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797999184D69550064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A179799A184D69550064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A179799B184D69550064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A179799C184D69550064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A179799E184D69550064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A179799F184D69550064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A17979A0184D69550064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A17979A1184D69550064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A17979A2184D69550064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A17979A4184D69550064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A17979A5184D69550064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A17979A6184D69550064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A17979A7184D69550064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A17979A8184D69550064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A17979AA184D69550064C7CB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A17979AB184D69550064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A17979AC184D69550064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A17979AD184D69550064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A17979AE184D69550064C7CB /* parser.y */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.yacc; path = parser.y; sourceTree = "<group>"; };
+		A17979AF184D69550064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A17979B0184D69550064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A17979B2184D69550064C7CB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A17979B3184D69550064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A17979B4184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A17979B5184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A17979B6184D69560064C7CB /* parser.y */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.yacc; path = parser.y; sourceTree = "<group>"; };
+		A17979B7184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A17979B8184D69560064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A17979BA184D69560064C7CB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A17979BB184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A17979BC184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A17979BD184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A17979BE184D69560064C7CB /* parser.y */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.yacc; path = parser.y; sourceTree = "<group>"; };
+		A17979BF184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A17979C0184D69560064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A17979C2184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A17979C3184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A17979C4184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A17979C5184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A17979C6184D69560064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A17979C8184D69560064C7CB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A17979C9184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A17979CA184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A17979CB184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A17979CC184D69560064C7CB /* scanner-1.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = "scanner-1.l"; sourceTree = "<group>"; };
+		A17979CD184D69560064C7CB /* scanner-2.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = "scanner-2.l"; sourceTree = "<group>"; };
+		A17979CE184D69560064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A17979D0184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A17979D1184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A17979D2184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A17979D3184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A17979D4184D69560064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A17979D6184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A17979D7184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A17979D8184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A17979D9184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A17979DA184D69560064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A17979DC184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A17979DD184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A17979DE184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A17979DF184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A17979E0184D69560064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A17979E2184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A17979E3184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A17979E4184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A17979E5184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A17979E6184D69560064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A17979E8184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A17979E9184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A17979EA184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A17979EC184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A17979ED184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A17979EE184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A17979EF184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A17979F0184D69560064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A17979F2184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A17979F3184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A17979F4184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A17979F5184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A17979F6184D69560064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A17979F8184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A17979F9184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A17979FA184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A17979FB184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A17979FC184D69560064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A17979FE184D69560064C7CB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A17979FF184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797A00184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797A01184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797A02184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A1797A03184D69560064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A1797A05184D69560064C7CB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A1797A06184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797A07184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797A08184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797A09184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A1797A0A184D69560064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A1797A0C184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797A0D184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797A0E184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797A0F184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A1797A10184D69560064C7CB /* test-1.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = "test-1.input"; sourceTree = "<group>"; };
+		A1797A11184D69560064C7CB /* test-2.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = "test-2.input"; sourceTree = "<group>"; };
+		A1797A12184D69560064C7CB /* test-3.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = "test-3.input"; sourceTree = "<group>"; };
+		A1797A14184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797A15184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797A16184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797A17184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A1797A18184D69560064C7CB /* test-1.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = "test-1.input"; sourceTree = "<group>"; };
+		A1797A19184D69560064C7CB /* test-2.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = "test-2.input"; sourceTree = "<group>"; };
+		A1797A1A184D69560064C7CB /* test-3.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = "test-3.input"; sourceTree = "<group>"; };
+		A1797A1C184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797A1D184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797A1E184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797A1F184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A1797A20184D69560064C7CB /* test-1.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = "test-1.input"; sourceTree = "<group>"; };
+		A1797A21184D69560064C7CB /* test-2.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = "test-2.input"; sourceTree = "<group>"; };
+		A1797A22184D69560064C7CB /* test-3.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = "test-3.input"; sourceTree = "<group>"; };
+		A1797A24184D69560064C7CB /* check-lines.awk */ = {isa = PBXFileReference; lastKnownFileType = text; path = "check-lines.awk"; sourceTree = "<group>"; };
+		A1797A25184D69560064C7CB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A1797A26184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797A27184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797A28184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797A29184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A1797A2A184D69560064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A1797A2C184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797A2D184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797A2E184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797A2F184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A1797A30184D69560064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A1797A32184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797A33184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797A34184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797A35184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A1797A36184D69560064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A1797A38184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797A39184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797A3A184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797A3B184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A1797A3C184D69560064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A1797A3E184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797A3F184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797A40184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797A41184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A1797A42184D69560064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A1797A44184D69560064C7CB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A1797A45184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797A46184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797A47184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797A48184D69560064C7CB /* scanner-1.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = "scanner-1.l"; sourceTree = "<group>"; };
+		A1797A49184D69560064C7CB /* scanner-2.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = "scanner-2.l"; sourceTree = "<group>"; };
+		A1797A4B184D69560064C7CB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A1797A4C184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797A4D184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797A4E184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797A4F184D69560064C7CB /* scanner-1.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = "scanner-1.l"; sourceTree = "<group>"; };
+		A1797A50184D69560064C7CB /* scanner-2.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = "scanner-2.l"; sourceTree = "<group>"; };
+		A1797A52184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797A53184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797A54184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797A55184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A1797A56184D69560064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A1797A58184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797A59184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797A5A184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797A5B184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A1797A5C184D69560064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A1797A5E184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797A5F184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797A60184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797A61184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A1797A63184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797A64184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797A65184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797A66184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A1797A68184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797A69184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797A6A184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797A6B184D69560064C7CB /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		A1797A6C184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A1797A6D184D69560064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A1797A6F184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797A70184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797A71184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797A72184D69560064C7CB /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		A1797A73184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A1797A74184D69560064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A1797A76184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797A77184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797A78184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797A79184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A1797A7A184D69560064C7CB /* test-1.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = "test-1.input"; sourceTree = "<group>"; };
+		A1797A7B184D69560064C7CB /* test-2.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = "test-2.input"; sourceTree = "<group>"; };
+		A1797A7C184D69560064C7CB /* test-3.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = "test-3.input"; sourceTree = "<group>"; };
+		A1797A7D184D69560064C7CB /* test-4.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = "test-4.input"; sourceTree = "<group>"; };
+		A1797A7E184D69560064C7CB /* test-5.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = "test-5.input"; sourceTree = "<group>"; };
+		A1797A80184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797A81184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797A82184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797A83184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A1797A84184D69560064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A1797A86184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797A87184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797A88184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797A89184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A1797A8A184D69560064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A1797A8C184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797A8D184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797A8E184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797A8F184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A1797A90184D69560064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A1797A92184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797A93184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797A94184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797A95184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A1797A96184D69560064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A1797A98184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797A99184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797A9A184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797A9B184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A1797A9D184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797A9E184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797A9F184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797AA0184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A1797AA2184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797AA3184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797AA4184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797AA5184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A1797AA6184D69560064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A1797AA8184D69560064C7CB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A1797AA9184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797AAA184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797AAB184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797AAC184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A1797AAD184D69560064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A1797AAF184D69560064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797AB0184D69560064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797AB1184D69560064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797AB2184D69560064C7CB /* scanner.l */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.lex; path = scanner.l; sourceTree = "<group>"; };
+		A1797AB3184D69560064C7CB /* test.input */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.input; sourceTree = "<group>"; };
+		A1797AB4184D69560064C7CB /* THANKS */ = {isa = PBXFileReference; lastKnownFileType = text; path = THANKS; sourceTree = "<group>"; };
+		A1797AB5184D69570064C7CB /* TODO */ = {isa = PBXFileReference; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		A1797AB7184D69570064C7CB /* git2cl */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = git2cl; sourceTree = "<group>"; };
+		A1797AB8184D69570064C7CB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		A1797AB9184D69570064C7CB /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		A1797ABA184D69570064C7CB /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		A1797ABB184D69570064C7CB /* version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		A1797ABC184D69570064C7CB /* ylwrap */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = ylwrap; sourceTree = "<group>"; };
+		A1797ABD184D69570064C7CB /* yylex.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = yylex.c; sourceTree = "<group>"; };
+		A1797ABE184D69570064C7CB /* yylex.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = yylex.o; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1797866184D5C0D0064C7CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1797860184D5C0D0064C7CB = {
+			isa = PBXGroup;
+			children = (
+				A1797877184D69540064C7CB /* flex-2.5.37 */,
+				A179786B184D5C0D0064C7CB /* cs410final2 */,
+				A179786A184D5C0D0064C7CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A179786A184D5C0D0064C7CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1797869184D5C0D0064C7CB /* cs410final2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A179786B184D5C0D0064C7CB /* cs410final2 */ = {
+			isa = PBXGroup;
+			children = (
+				A179786C184D5C0D0064C7CB /* cs410LexPortion.l */,
+				A179786E184D5C0D0064C7CB /* cs410final2.1 */,
+			);
+			path = cs410final2;
+			sourceTree = "<group>";
+		};
+		A1797877184D69540064C7CB /* flex-2.5.37 */ = {
+			isa = PBXGroup;
+			children = (
+				A1797878184D69540064C7CB /* #assignment1.l# */,
+				A1797879184D69540064C7CB /* .deps */,
+				A1797893184D69540064C7CB /* .indent.pro */,
+				A1797894184D69540064C7CB /* ABOUT-NLS */,
+				A1797895184D69540064C7CB /* aclocal.m4 */,
+				A1797896184D69540064C7CB /* AUTHORS */,
+				A1797897184D69540064C7CB /* autogen.sh */,
+				A1797898184D69540064C7CB /* buf.c */,
+				A1797899184D69540064C7CB /* buf.o */,
+				A179789A184D69540064C7CB /* ccl.c */,
+				A179789B184D69540064C7CB /* ccl.o */,
+				A179789C184D69540064C7CB /* ChangeLog */,
+				A179789D184D69540064C7CB /* compile */,
+				A179789E184D69540064C7CB /* conf.in */,
+				A179789F184D69540064C7CB /* config.guess */,
+				A17978A0184D69540064C7CB /* config.h */,
+				A17978A1184D69540064C7CB /* config.log */,
+				A17978A2184D69540064C7CB /* config.rpath */,
+				A17978A3184D69540064C7CB /* config.status */,
+				A17978A4184D69540064C7CB /* config.sub */,
+				A17978A5184D69540064C7CB /* configure */,
+				A17978A6184D69540064C7CB /* configure.in */,
+				A17978A7184D69540064C7CB /* COPYING */,
+				A17978A8184D69540064C7CB /* depcomp */,
+				A17978A9184D69540064C7CB /* dfa.c */,
+				A17978AA184D69540064C7CB /* dfa.o */,
+				A17978AB184D69540064C7CB /* doc */,
+				A17978B9184D69540064C7CB /* ecs.c */,
+				A17978BA184D69540064C7CB /* ecs.o */,
+				A17978BB184D69540064C7CB /* examples */,
+				A17978F2184D69540064C7CB /* filter.c */,
+				A17978F3184D69540064C7CB /* filter.o */,
+				A17978F4184D69540064C7CB /* flex */,
+				A17978F5184D69540064C7CB /* flex.skl */,
+				A17978F6184D69540064C7CB /* flexdef.h */,
+				A17978F7184D69540064C7CB /* flexint.h */,
+				A17978F8184D69540064C7CB /* FlexLexer.h */,
+				A17978F9184D69540064C7CB /* gen.c */,
+				A17978FA184D69540064C7CB /* gen.o */,
+				A17978FB184D69540064C7CB /* gettext.h */,
+				A17978FC184D69540064C7CB /* INSTALL */,
+				A17978FD184D69550064C7CB /* install-sh */,
+				A17978FE184D69550064C7CB /* lib */,
+				A179790B184D69550064C7CB /* libfl.a */,
+				A179790C184D69550064C7CB /* libfl_pic.a */,
+				A179790D184D69550064C7CB /* libfl_pic_a-libmain.o */,
+				A179790E184D69550064C7CB /* libfl_pic_a-libyywrap.o */,
+				A179790F184D69550064C7CB /* libmain.c */,
+				A1797910184D69550064C7CB /* libmain.o */,
+				A1797911184D69550064C7CB /* libyywrap.c */,
+				A1797912184D69550064C7CB /* libyywrap.o */,
+				A1797913184D69550064C7CB /* m4 */,
+				A179791C184D69550064C7CB /* main.c */,
+				A179791D184D69550064C7CB /* main.o */,
+				A179791E184D69550064C7CB /* Makefile */,
+				A179791F184D69550064C7CB /* Makefile.am */,
+				A1797920184D69550064C7CB /* Makefile.in */,
+				A1797921184D69550064C7CB /* misc.c */,
+				A1797922184D69550064C7CB /* misc.o */,
+				A1797923184D69550064C7CB /* missing */,
+				A1797924184D69550064C7CB /* mkinstalldirs */,
+				A1797925184D69550064C7CB /* mkskel.sh */,
+				A1797926184D69550064C7CB /* NEWS */,
+				A1797927184D69550064C7CB /* nfa.c */,
+				A1797928184D69550064C7CB /* nfa.o */,
+				A1797929184D69550064C7CB /* ONEWS */,
+				A179792A184D69550064C7CB /* options.c */,
+				A179792B184D69550064C7CB /* options.h */,
+				A179792C184D69550064C7CB /* options.o */,
+				A179792D184D69550064C7CB /* parse.c */,
+				A179792E184D69550064C7CB /* parse.h */,
+				A179792F184D69550064C7CB /* parse.o */,
+				A1797930184D69550064C7CB /* parse.y */,
+				A1797931184D69550064C7CB /* po */,
+				A1797964184D69550064C7CB /* README */,
+				A1797965184D69550064C7CB /* README-alpha */,
+				A1797966184D69550064C7CB /* README.cvs */,
+				A1797967184D69550064C7CB /* regex.c */,
+				A1797968184D69550064C7CB /* regex.o */,
+				A1797969184D69550064C7CB /* scan.c */,
+				A179796A184D69550064C7CB /* scan.l */,
+				A179796B184D69550064C7CB /* scan.o */,
+				A179796C184D69550064C7CB /* scanflags.c */,
+				A179796D184D69550064C7CB /* scanflags.o */,
+				A179796E184D69550064C7CB /* scanopt.c */,
+				A179796F184D69550064C7CB /* scanopt.h */,
+				A1797970184D69550064C7CB /* scanopt.o */,
+				A1797971184D69550064C7CB /* skel.c */,
+				A1797972184D69550064C7CB /* skel.o */,
+				A1797973184D69550064C7CB /* stamp-h1 */,
+				A1797974184D69550064C7CB /* sym.c */,
+				A1797975184D69550064C7CB /* sym.o */,
+				A1797976184D69550064C7CB /* tables.c */,
+				A1797977184D69550064C7CB /* tables.h */,
+				A1797978184D69550064C7CB /* tables.o */,
+				A1797979184D69550064C7CB /* tables_shared.c */,
+				A179797A184D69550064C7CB /* tables_shared.h */,
+				A179797B184D69550064C7CB /* tables_shared.o */,
+				A179797C184D69550064C7CB /* tblcmp.c */,
+				A179797D184D69550064C7CB /* tblcmp.o */,
+				A179797E184D69550064C7CB /* tests */,
+				A1797AB4184D69560064C7CB /* THANKS */,
+				A1797AB5184D69570064C7CB /* TODO */,
+				A1797AB6184D69570064C7CB /* tools */,
+				A1797ABB184D69570064C7CB /* version.h */,
+				A1797ABC184D69570064C7CB /* ylwrap */,
+				A1797ABD184D69570064C7CB /* yylex.c */,
+				A1797ABE184D69570064C7CB /* yylex.o */,
+			);
+			name = "flex-2.5.37";
+			path = "../flex-2.5.37";
+			sourceTree = "<group>";
+		};
+		A1797879184D69540064C7CB /* .deps */ = {
+			isa = PBXGroup;
+			children = (
+				A179787A184D69540064C7CB /* buf.Po */,
+				A179787B184D69540064C7CB /* ccl.Po */,
+				A179787C184D69540064C7CB /* dfa.Po */,
+				A179787D184D69540064C7CB /* ecs.Po */,
+				A179787E184D69540064C7CB /* filter.Po */,
+				A179787F184D69540064C7CB /* gen.Po */,
+				A1797880184D69540064C7CB /* libfl_pic_a-libmain.Po */,
+				A1797881184D69540064C7CB /* libfl_pic_a-libyywrap.Po */,
+				A1797882184D69540064C7CB /* libmain.Po */,
+				A1797883184D69540064C7CB /* libyywrap.Po */,
+				A1797884184D69540064C7CB /* main.Po */,
+				A1797885184D69540064C7CB /* misc.Po */,
+				A1797886184D69540064C7CB /* nfa.Po */,
+				A1797887184D69540064C7CB /* options.Po */,
+				A1797888184D69540064C7CB /* parse.Po */,
+				A1797889184D69540064C7CB /* regex.Po */,
+				A179788A184D69540064C7CB /* scan.Po */,
+				A179788B184D69540064C7CB /* scanflags.Po */,
+				A179788C184D69540064C7CB /* scanopt.Po */,
+				A179788D184D69540064C7CB /* skel.Po */,
+				A179788E184D69540064C7CB /* sym.Po */,
+				A179788F184D69540064C7CB /* tables.Po */,
+				A1797890184D69540064C7CB /* tables_shared.Po */,
+				A1797891184D69540064C7CB /* tblcmp.Po */,
+				A1797892184D69540064C7CB /* yylex.Po */,
+			);
+			path = .deps;
+			sourceTree = "<group>";
+		};
+		A17978AB184D69540064C7CB /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				A17978AC184D69540064C7CB /* flex.1 */,
+				A17978AD184D69540064C7CB /* flex.info */,
+				A17978AE184D69540064C7CB /* flex.info-1 */,
+				A17978AF184D69540064C7CB /* flex.info-2 */,
+				A17978B0184D69540064C7CB /* flex.pdf */,
+				A17978B1184D69540064C7CB /* flex.texi */,
+				A17978B2184D69540064C7CB /* Makefile */,
+				A17978B3184D69540064C7CB /* Makefile.am */,
+				A17978B4184D69540064C7CB /* Makefile.in */,
+				A17978B5184D69540064C7CB /* mdate-sh */,
+				A17978B6184D69540064C7CB /* stamp-vti */,
+				A17978B7184D69540064C7CB /* texinfo.tex */,
+				A17978B8184D69540064C7CB /* version.texi */,
+			);
+			path = doc;
+			sourceTree = "<group>";
+		};
+		A17978BB184D69540064C7CB /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				A17978BC184D69540064C7CB /* debflex.awk */,
+				A17978BD184D69540064C7CB /* fastwc */,
+				A17978C8184D69540064C7CB /* Makefile */,
+				A17978C9184D69540064C7CB /* Makefile.am */,
+				A17978CA184D69540064C7CB /* Makefile.in */,
+				A17978CB184D69540064C7CB /* manual */,
+				A17978F0184D69540064C7CB /* README */,
+				A17978F1184D69540064C7CB /* testxxLexer.l */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		A17978BD184D69540064C7CB /* fastwc */ = {
+			isa = PBXGroup;
+			children = (
+				A17978BE184D69540064C7CB /* Makefile */,
+				A17978BF184D69540064C7CB /* Makefile.am */,
+				A17978C0184D69540064C7CB /* Makefile.in */,
+				A17978C1184D69540064C7CB /* mywc.c */,
+				A17978C2184D69540064C7CB /* README */,
+				A17978C3184D69540064C7CB /* wc1.l */,
+				A17978C4184D69540064C7CB /* wc2.l */,
+				A17978C5184D69540064C7CB /* wc3.l */,
+				A17978C6184D69540064C7CB /* wc4.l */,
+				A17978C7184D69540064C7CB /* wc5.l */,
+			);
+			path = fastwc;
+			sourceTree = "<group>";
+		};
+		A17978CB184D69540064C7CB /* manual */ = {
+			isa = PBXGroup;
+			children = (
+				A17978CC184D69540064C7CB /* cat.lex */,
+				A17978CD184D69540064C7CB /* ChangeLog */,
+				A17978CE184D69540064C7CB /* dates.lex */,
+				A17978CF184D69540064C7CB /* datetest.dat */,
+				A17978D0184D69540064C7CB /* eof_rules.lex */,
+				A17978D1184D69540064C7CB /* eof_test01.txt */,
+				A17978D2184D69540064C7CB /* eof_test02.txt */,
+				A17978D3184D69540064C7CB /* eof_test03.txt */,
+				A17978D4184D69540064C7CB /* expr.lex */,
+				A17978D5184D69540064C7CB /* expr.y */,
+				A17978D6184D69540064C7CB /* front.lex */,
+				A17978D7184D69540064C7CB /* front.y */,
+				A17978D8184D69540064C7CB /* j2t.lex */,
+				A17978D9184D69540064C7CB /* Makefile */,
+				A17978DA184D69540064C7CB /* Makefile.am */,
+				A17978DB184D69540064C7CB /* Makefile.examples */,
+				A17978DC184D69540064C7CB /* Makefile.in */,
+				A17978DD184D69540064C7CB /* myname.lex */,
+				A17978DE184D69540064C7CB /* myname.txt */,
+				A17978DF184D69540064C7CB /* myname2.lex */,
+				A17978E0184D69540064C7CB /* numbers.lex */,
+				A17978E1184D69540064C7CB /* pas_include.lex */,
+				A17978E2184D69540064C7CB /* pascal.lex */,
+				A17978E3184D69540064C7CB /* README */,
+				A17978E4184D69540064C7CB /* reject.lex */,
+				A17978E5184D69540064C7CB /* replace.lex */,
+				A17978E6184D69540064C7CB /* string1.lex */,
+				A17978E7184D69540064C7CB /* string2.lex */,
+				A17978E8184D69540064C7CB /* strtest.dat */,
+				A17978E9184D69540064C7CB /* unput.lex */,
+				A17978EA184D69540064C7CB /* user_act.lex */,
+				A17978EB184D69540064C7CB /* userinit.lex */,
+				A17978EC184D69540064C7CB /* wc.lex */,
+				A17978ED184D69540064C7CB /* yymore.lex */,
+				A17978EE184D69540064C7CB /* yymore2.lex */,
+				A17978EF184D69540064C7CB /* yymoretest.dat */,
+			);
+			path = manual;
+			sourceTree = "<group>";
+		};
+		A17978FE184D69550064C7CB /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				A17978FF184D69550064C7CB /* .deps */,
+				A1797903184D69550064C7CB /* lib.c */,
+				A1797904184D69550064C7CB /* lib.o */,
+				A1797905184D69550064C7CB /* libcompat.a */,
+				A1797906184D69550064C7CB /* Makefile */,
+				A1797907184D69550064C7CB /* Makefile.am */,
+				A1797908184D69550064C7CB /* Makefile.in */,
+				A1797909184D69550064C7CB /* malloc.c */,
+				A179790A184D69550064C7CB /* realloc.c */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		A17978FF184D69550064C7CB /* .deps */ = {
+			isa = PBXGroup;
+			children = (
+				A1797900184D69550064C7CB /* lib.Po */,
+				A1797901184D69550064C7CB /* malloc.Po */,
+				A1797902184D69550064C7CB /* realloc.Po */,
+			);
+			path = .deps;
+			sourceTree = "<group>";
+		};
+		A1797913184D69550064C7CB /* m4 */ = {
+			isa = PBXGroup;
+			children = (
+				A1797914184D69550064C7CB /* gettext.m4 */,
+				A1797915184D69550064C7CB /* iconv.m4 */,
+				A1797916184D69550064C7CB /* lib-ld.m4 */,
+				A1797917184D69550064C7CB /* lib-link.m4 */,
+				A1797918184D69550064C7CB /* lib-prefix.m4 */,
+				A1797919184D69550064C7CB /* nls.m4 */,
+				A179791A184D69550064C7CB /* po.m4 */,
+				A179791B184D69550064C7CB /* progtest.m4 */,
+			);
+			path = m4;
+			sourceTree = "<group>";
+		};
+		A1797931184D69550064C7CB /* po */ = {
+			isa = PBXGroup;
+			children = (
+				A1797932184D69550064C7CB /* boldquot.sed */,
+				A1797933184D69550064C7CB /* ca.gmo */,
+				A1797934184D69550064C7CB /* ca.po */,
+				A1797935184D69550064C7CB /* da.gmo */,
+				A1797936184D69550064C7CB /* da.po */,
+				A1797937184D69550064C7CB /* de.gmo */,
+				A1797938184D69550064C7CB /* de.po */,
+				A1797939184D69550064C7CB /* en@boldquot.header */,
+				A179793A184D69550064C7CB /* en@quot.header */,
+				A179793B184D69550064C7CB /* es.gmo */,
+				A179793C184D69550064C7CB /* es.po */,
+				A179793D184D69550064C7CB /* fi.gmo */,
+				A179793E184D69550064C7CB /* fi.po */,
+				A179793F184D69550064C7CB /* flex.pot */,
+				A1797940184D69550064C7CB /* fr.gmo */,
+				A1797941184D69550064C7CB /* fr.po */,
+				A1797942184D69550064C7CB /* ga.gmo */,
+				A1797943184D69550064C7CB /* ga.po */,
+				A1797944184D69550064C7CB /* insert-header.sin */,
+				A1797945184D69550064C7CB /* ko.gmo */,
+				A1797946184D69550064C7CB /* ko.po */,
+				A1797947184D69550064C7CB /* LINGUAS */,
+				A1797948184D69550064C7CB /* Makefile */,
+				A1797949184D69550064C7CB /* Makefile.in */,
+				A179794A184D69550064C7CB /* Makefile.in.in */,
+				A179794B184D69550064C7CB /* Makevars */,
+				A179794C184D69550064C7CB /* nl.gmo */,
+				A179794D184D69550064C7CB /* nl.po */,
+				A179794E184D69550064C7CB /* pl.gmo */,
+				A179794F184D69550064C7CB /* pl.po */,
+				A1797950184D69550064C7CB /* POTFILES */,
+				A1797951184D69550064C7CB /* POTFILES.in */,
+				A1797952184D69550064C7CB /* pt_BR.gmo */,
+				A1797953184D69550064C7CB /* pt_BR.po */,
+				A1797954184D69550064C7CB /* quot.sed */,
+				A1797955184D69550064C7CB /* remove-potcdate.sin */,
+				A1797956184D69550064C7CB /* ro.gmo */,
+				A1797957184D69550064C7CB /* ro.po */,
+				A1797958184D69550064C7CB /* ru.gmo */,
+				A1797959184D69550064C7CB /* ru.po */,
+				A179795A184D69550064C7CB /* Rules-quot */,
+				A179795B184D69550064C7CB /* stamp-po */,
+				A179795C184D69550064C7CB /* sv.gmo */,
+				A179795D184D69550064C7CB /* sv.po */,
+				A179795E184D69550064C7CB /* tr.gmo */,
+				A179795F184D69550064C7CB /* tr.po */,
+				A1797960184D69550064C7CB /* vi.gmo */,
+				A1797961184D69550064C7CB /* vi.po */,
+				A1797962184D69550064C7CB /* zh_CN.gmo */,
+				A1797963184D69550064C7CB /* zh_CN.po */,
+			);
+			path = po;
+			sourceTree = "<group>";
+		};
+		A179797E184D69550064C7CB /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				A179797F184D69550064C7CB /* create-test */,
+				A1797980184D69550064C7CB /* Makefile */,
+				A1797981184D69550064C7CB /* Makefile.am */,
+				A1797982184D69550064C7CB /* Makefile.in */,
+				A1797983184D69550064C7CB /* README */,
+				A1797984184D69550064C7CB /* TEMPLATE */,
+				A179798B184D69550064C7CB /* test-alloc-extra */,
+				A1797991184D69550064C7CB /* test-array-nr */,
+				A1797997184D69550064C7CB /* test-array-r */,
+				A179799D184D69550064C7CB /* test-basic-nr */,
+				A17979A3184D69550064C7CB /* test-basic-r */,
+				A17979A9184D69550064C7CB /* test-bison-nr */,
+				A17979B1184D69550064C7CB /* test-bison-yylloc */,
+				A17979B9184D69560064C7CB /* test-bison-yylval */,
+				A17979C1184D69560064C7CB /* test-c++-basic */,
+				A17979C7184D69560064C7CB /* test-c++-multiple-scanners */,
+				A17979CF184D69560064C7CB /* test-c++-yywrap */,
+				A17979D5184D69560064C7CB /* test-c-cpp-nr */,
+				A17979DB184D69560064C7CB /* test-c-cpp-r */,
+				A17979E1184D69560064C7CB /* test-ccl */,
+				A17979E7184D69560064C7CB /* test-concatenated-options */,
+				A17979EB184D69560064C7CB /* test-debug-nr */,
+				A17979F1184D69560064C7CB /* test-debug-r */,
+				A17979F7184D69560064C7CB /* test-extended */,
+				A17979FD184D69560064C7CB /* test-header-nr */,
+				A1797A04184D69560064C7CB /* test-header-r */,
+				A1797A0B184D69560064C7CB /* test-include-by-buffer */,
+				A1797A13184D69560064C7CB /* test-include-by-push */,
+				A1797A1B184D69560064C7CB /* test-include-by-reentrant */,
+				A1797A23184D69560064C7CB /* test-linedir-r */,
+				A1797A2B184D69560064C7CB /* test-lineno-nr */,
+				A1797A31184D69560064C7CB /* test-lineno-r */,
+				A1797A37184D69560064C7CB /* test-mem-nr */,
+				A1797A3D184D69560064C7CB /* test-mem-r */,
+				A1797A43184D69560064C7CB /* test-multiple-scanners-nr */,
+				A1797A4A184D69560064C7CB /* test-multiple-scanners-r */,
+				A1797A51184D69560064C7CB /* test-noansi-nr */,
+				A1797A57184D69560064C7CB /* test-noansi-r */,
+				A1797A5D184D69560064C7CB /* test-posix */,
+				A1797A62184D69560064C7CB /* test-posixly-correct */,
+				A1797A67184D69560064C7CB /* test-prefix-nr */,
+				A1797A6E184D69560064C7CB /* test-prefix-r */,
+				A1797A75184D69560064C7CB /* test-pthread */,
+				A1797A7F184D69560064C7CB /* test-quotes */,
+				A1797A85184D69560064C7CB /* test-reject */,
+				A1797A8B184D69560064C7CB /* test-rescan-nr */,
+				A1797A91184D69560064C7CB /* test-rescan-r */,
+				A1797A97184D69560064C7CB /* test-string-nr */,
+				A1797A9C184D69560064C7CB /* test-string-r */,
+				A1797AA1184D69560064C7CB /* test-table-opts */,
+				A1797AA7184D69560064C7CB /* test-top */,
+				A1797AAE184D69560064C7CB /* test-yyextra */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+		A1797984184D69550064C7CB /* TEMPLATE */ = {
+			isa = PBXGroup;
+			children = (
+				A1797985184D69550064C7CB /* Makefile */,
+				A1797986184D69550064C7CB /* Makefile.am */,
+				A1797987184D69550064C7CB /* Makefile.in */,
+				A1797988184D69550064C7CB /* parser.y */,
+				A1797989184D69550064C7CB /* scanner.l */,
+				A179798A184D69550064C7CB /* test.input */,
+			);
+			path = TEMPLATE;
+			sourceTree = "<group>";
+		};
+		A179798B184D69550064C7CB /* test-alloc-extra */ = {
+			isa = PBXGroup;
+			children = (
+				A179798C184D69550064C7CB /* Makefile */,
+				A179798D184D69550064C7CB /* Makefile.am */,
+				A179798E184D69550064C7CB /* Makefile.in */,
+				A179798F184D69550064C7CB /* scanner.l */,
+				A1797990184D69550064C7CB /* test.input */,
+			);
+			path = "test-alloc-extra";
+			sourceTree = "<group>";
+		};
+		A1797991184D69550064C7CB /* test-array-nr */ = {
+			isa = PBXGroup;
+			children = (
+				A1797992184D69550064C7CB /* Makefile */,
+				A1797993184D69550064C7CB /* Makefile.am */,
+				A1797994184D69550064C7CB /* Makefile.in */,
+				A1797995184D69550064C7CB /* scanner.l */,
+				A1797996184D69550064C7CB /* test.input */,
+			);
+			path = "test-array-nr";
+			sourceTree = "<group>";
+		};
+		A1797997184D69550064C7CB /* test-array-r */ = {
+			isa = PBXGroup;
+			children = (
+				A1797998184D69550064C7CB /* Makefile */,
+				A1797999184D69550064C7CB /* Makefile.am */,
+				A179799A184D69550064C7CB /* Makefile.in */,
+				A179799B184D69550064C7CB /* scanner.l */,
+				A179799C184D69550064C7CB /* test.input */,
+			);
+			path = "test-array-r";
+			sourceTree = "<group>";
+		};
+		A179799D184D69550064C7CB /* test-basic-nr */ = {
+			isa = PBXGroup;
+			children = (
+				A179799E184D69550064C7CB /* Makefile */,
+				A179799F184D69550064C7CB /* Makefile.am */,
+				A17979A0184D69550064C7CB /* Makefile.in */,
+				A17979A1184D69550064C7CB /* scanner.l */,
+				A17979A2184D69550064C7CB /* test.input */,
+			);
+			path = "test-basic-nr";
+			sourceTree = "<group>";
+		};
+		A17979A3184D69550064C7CB /* test-basic-r */ = {
+			isa = PBXGroup;
+			children = (
+				A17979A4184D69550064C7CB /* Makefile */,
+				A17979A5184D69550064C7CB /* Makefile.am */,
+				A17979A6184D69550064C7CB /* Makefile.in */,
+				A17979A7184D69550064C7CB /* scanner.l */,
+				A17979A8184D69550064C7CB /* test.input */,
+			);
+			path = "test-basic-r";
+			sourceTree = "<group>";
+		};
+		A17979A9184D69550064C7CB /* test-bison-nr */ = {
+			isa = PBXGroup;
+			children = (
+				A17979AA184D69550064C7CB /* main.c */,
+				A17979AB184D69550064C7CB /* Makefile */,
+				A17979AC184D69550064C7CB /* Makefile.am */,
+				A17979AD184D69550064C7CB /* Makefile.in */,
+				A17979AE184D69550064C7CB /* parser.y */,
+				A17979AF184D69550064C7CB /* scanner.l */,
+				A17979B0184D69550064C7CB /* test.input */,
+			);
+			path = "test-bison-nr";
+			sourceTree = "<group>";
+		};
+		A17979B1184D69550064C7CB /* test-bison-yylloc */ = {
+			isa = PBXGroup;
+			children = (
+				A17979B2184D69550064C7CB /* main.c */,
+				A17979B3184D69550064C7CB /* Makefile */,
+				A17979B4184D69560064C7CB /* Makefile.am */,
+				A17979B5184D69560064C7CB /* Makefile.in */,
+				A17979B6184D69560064C7CB /* parser.y */,
+				A17979B7184D69560064C7CB /* scanner.l */,
+				A17979B8184D69560064C7CB /* test.input */,
+			);
+			path = "test-bison-yylloc";
+			sourceTree = "<group>";
+		};
+		A17979B9184D69560064C7CB /* test-bison-yylval */ = {
+			isa = PBXGroup;
+			children = (
+				A17979BA184D69560064C7CB /* main.c */,
+				A17979BB184D69560064C7CB /* Makefile */,
+				A17979BC184D69560064C7CB /* Makefile.am */,
+				A17979BD184D69560064C7CB /* Makefile.in */,
+				A17979BE184D69560064C7CB /* parser.y */,
+				A17979BF184D69560064C7CB /* scanner.l */,
+				A17979C0184D69560064C7CB /* test.input */,
+			);
+			path = "test-bison-yylval";
+			sourceTree = "<group>";
+		};
+		A17979C1184D69560064C7CB /* test-c++-basic */ = {
+			isa = PBXGroup;
+			children = (
+				A17979C2184D69560064C7CB /* Makefile */,
+				A17979C3184D69560064C7CB /* Makefile.am */,
+				A17979C4184D69560064C7CB /* Makefile.in */,
+				A17979C5184D69560064C7CB /* scanner.l */,
+				A17979C6184D69560064C7CB /* test.input */,
+			);
+			path = "test-c++-basic";
+			sourceTree = "<group>";
+		};
+		A17979C7184D69560064C7CB /* test-c++-multiple-scanners */ = {
+			isa = PBXGroup;
+			children = (
+				A17979C8184D69560064C7CB /* main.cpp */,
+				A17979C9184D69560064C7CB /* Makefile */,
+				A17979CA184D69560064C7CB /* Makefile.am */,
+				A17979CB184D69560064C7CB /* Makefile.in */,
+				A17979CC184D69560064C7CB /* scanner-1.l */,
+				A17979CD184D69560064C7CB /* scanner-2.l */,
+				A17979CE184D69560064C7CB /* test.input */,
+			);
+			path = "test-c++-multiple-scanners";
+			sourceTree = "<group>";
+		};
+		A17979CF184D69560064C7CB /* test-c++-yywrap */ = {
+			isa = PBXGroup;
+			children = (
+				A17979D0184D69560064C7CB /* Makefile */,
+				A17979D1184D69560064C7CB /* Makefile.am */,
+				A17979D2184D69560064C7CB /* Makefile.in */,
+				A17979D3184D69560064C7CB /* scanner.l */,
+				A17979D4184D69560064C7CB /* test.input */,
+			);
+			path = "test-c++-yywrap";
+			sourceTree = "<group>";
+		};
+		A17979D5184D69560064C7CB /* test-c-cpp-nr */ = {
+			isa = PBXGroup;
+			children = (
+				A17979D6184D69560064C7CB /* Makefile */,
+				A17979D7184D69560064C7CB /* Makefile.am */,
+				A17979D8184D69560064C7CB /* Makefile.in */,
+				A17979D9184D69560064C7CB /* scanner.l */,
+				A17979DA184D69560064C7CB /* test.input */,
+			);
+			path = "test-c-cpp-nr";
+			sourceTree = "<group>";
+		};
+		A17979DB184D69560064C7CB /* test-c-cpp-r */ = {
+			isa = PBXGroup;
+			children = (
+				A17979DC184D69560064C7CB /* Makefile */,
+				A17979DD184D69560064C7CB /* Makefile.am */,
+				A17979DE184D69560064C7CB /* Makefile.in */,
+				A17979DF184D69560064C7CB /* scanner.l */,
+				A17979E0184D69560064C7CB /* test.input */,
+			);
+			path = "test-c-cpp-r";
+			sourceTree = "<group>";
+		};
+		A17979E1184D69560064C7CB /* test-ccl */ = {
+			isa = PBXGroup;
+			children = (
+				A17979E2184D69560064C7CB /* Makefile */,
+				A17979E3184D69560064C7CB /* Makefile.am */,
+				A17979E4184D69560064C7CB /* Makefile.in */,
+				A17979E5184D69560064C7CB /* scanner.l */,
+				A17979E6184D69560064C7CB /* test.input */,
+			);
+			path = "test-ccl";
+			sourceTree = "<group>";
+		};
+		A17979E7184D69560064C7CB /* test-concatenated-options */ = {
+			isa = PBXGroup;
+			children = (
+				A17979E8184D69560064C7CB /* Makefile */,
+				A17979E9184D69560064C7CB /* Makefile.am */,
+				A17979EA184D69560064C7CB /* Makefile.in */,
+			);
+			path = "test-concatenated-options";
+			sourceTree = "<group>";
+		};
+		A17979EB184D69560064C7CB /* test-debug-nr */ = {
+			isa = PBXGroup;
+			children = (
+				A17979EC184D69560064C7CB /* Makefile */,
+				A17979ED184D69560064C7CB /* Makefile.am */,
+				A17979EE184D69560064C7CB /* Makefile.in */,
+				A17979EF184D69560064C7CB /* scanner.l */,
+				A17979F0184D69560064C7CB /* test.input */,
+			);
+			path = "test-debug-nr";
+			sourceTree = "<group>";
+		};
+		A17979F1184D69560064C7CB /* test-debug-r */ = {
+			isa = PBXGroup;
+			children = (
+				A17979F2184D69560064C7CB /* Makefile */,
+				A17979F3184D69560064C7CB /* Makefile.am */,
+				A17979F4184D69560064C7CB /* Makefile.in */,
+				A17979F5184D69560064C7CB /* scanner.l */,
+				A17979F6184D69560064C7CB /* test.input */,
+			);
+			path = "test-debug-r";
+			sourceTree = "<group>";
+		};
+		A17979F7184D69560064C7CB /* test-extended */ = {
+			isa = PBXGroup;
+			children = (
+				A17979F8184D69560064C7CB /* Makefile */,
+				A17979F9184D69560064C7CB /* Makefile.am */,
+				A17979FA184D69560064C7CB /* Makefile.in */,
+				A17979FB184D69560064C7CB /* scanner.l */,
+				A17979FC184D69560064C7CB /* test.input */,
+			);
+			path = "test-extended";
+			sourceTree = "<group>";
+		};
+		A17979FD184D69560064C7CB /* test-header-nr */ = {
+			isa = PBXGroup;
+			children = (
+				A17979FE184D69560064C7CB /* main.c */,
+				A17979FF184D69560064C7CB /* Makefile */,
+				A1797A00184D69560064C7CB /* Makefile.am */,
+				A1797A01184D69560064C7CB /* Makefile.in */,
+				A1797A02184D69560064C7CB /* scanner.l */,
+				A1797A03184D69560064C7CB /* test.input */,
+			);
+			path = "test-header-nr";
+			sourceTree = "<group>";
+		};
+		A1797A04184D69560064C7CB /* test-header-r */ = {
+			isa = PBXGroup;
+			children = (
+				A1797A05184D69560064C7CB /* main.c */,
+				A1797A06184D69560064C7CB /* Makefile */,
+				A1797A07184D69560064C7CB /* Makefile.am */,
+				A1797A08184D69560064C7CB /* Makefile.in */,
+				A1797A09184D69560064C7CB /* scanner.l */,
+				A1797A0A184D69560064C7CB /* test.input */,
+			);
+			path = "test-header-r";
+			sourceTree = "<group>";
+		};
+		A1797A0B184D69560064C7CB /* test-include-by-buffer */ = {
+			isa = PBXGroup;
+			children = (
+				A1797A0C184D69560064C7CB /* Makefile */,
+				A1797A0D184D69560064C7CB /* Makefile.am */,
+				A1797A0E184D69560064C7CB /* Makefile.in */,
+				A1797A0F184D69560064C7CB /* scanner.l */,
+				A1797A10184D69560064C7CB /* test-1.input */,
+				A1797A11184D69560064C7CB /* test-2.input */,
+				A1797A12184D69560064C7CB /* test-3.input */,
+			);
+			path = "test-include-by-buffer";
+			sourceTree = "<group>";
+		};
+		A1797A13184D69560064C7CB /* test-include-by-push */ = {
+			isa = PBXGroup;
+			children = (
+				A1797A14184D69560064C7CB /* Makefile */,
+				A1797A15184D69560064C7CB /* Makefile.am */,
+				A1797A16184D69560064C7CB /* Makefile.in */,
+				A1797A17184D69560064C7CB /* scanner.l */,
+				A1797A18184D69560064C7CB /* test-1.input */,
+				A1797A19184D69560064C7CB /* test-2.input */,
+				A1797A1A184D69560064C7CB /* test-3.input */,
+			);
+			path = "test-include-by-push";
+			sourceTree = "<group>";
+		};
+		A1797A1B184D69560064C7CB /* test-include-by-reentrant */ = {
+			isa = PBXGroup;
+			children = (
+				A1797A1C184D69560064C7CB /* Makefile */,
+				A1797A1D184D69560064C7CB /* Makefile.am */,
+				A1797A1E184D69560064C7CB /* Makefile.in */,
+				A1797A1F184D69560064C7CB /* scanner.l */,
+				A1797A20184D69560064C7CB /* test-1.input */,
+				A1797A21184D69560064C7CB /* test-2.input */,
+				A1797A22184D69560064C7CB /* test-3.input */,
+			);
+			path = "test-include-by-reentrant";
+			sourceTree = "<group>";
+		};
+		A1797A23184D69560064C7CB /* test-linedir-r */ = {
+			isa = PBXGroup;
+			children = (
+				A1797A24184D69560064C7CB /* check-lines.awk */,
+				A1797A25184D69560064C7CB /* main.c */,
+				A1797A26184D69560064C7CB /* Makefile */,
+				A1797A27184D69560064C7CB /* Makefile.am */,
+				A1797A28184D69560064C7CB /* Makefile.in */,
+				A1797A29184D69560064C7CB /* scanner.l */,
+				A1797A2A184D69560064C7CB /* test.input */,
+			);
+			path = "test-linedir-r";
+			sourceTree = "<group>";
+		};
+		A1797A2B184D69560064C7CB /* test-lineno-nr */ = {
+			isa = PBXGroup;
+			children = (
+				A1797A2C184D69560064C7CB /* Makefile */,
+				A1797A2D184D69560064C7CB /* Makefile.am */,
+				A1797A2E184D69560064C7CB /* Makefile.in */,
+				A1797A2F184D69560064C7CB /* scanner.l */,
+				A1797A30184D69560064C7CB /* test.input */,
+			);
+			path = "test-lineno-nr";
+			sourceTree = "<group>";
+		};
+		A1797A31184D69560064C7CB /* test-lineno-r */ = {
+			isa = PBXGroup;
+			children = (
+				A1797A32184D69560064C7CB /* Makefile */,
+				A1797A33184D69560064C7CB /* Makefile.am */,
+				A1797A34184D69560064C7CB /* Makefile.in */,
+				A1797A35184D69560064C7CB /* scanner.l */,
+				A1797A36184D69560064C7CB /* test.input */,
+			);
+			path = "test-lineno-r";
+			sourceTree = "<group>";
+		};
+		A1797A37184D69560064C7CB /* test-mem-nr */ = {
+			isa = PBXGroup;
+			children = (
+				A1797A38184D69560064C7CB /* Makefile */,
+				A1797A39184D69560064C7CB /* Makefile.am */,
+				A1797A3A184D69560064C7CB /* Makefile.in */,
+				A1797A3B184D69560064C7CB /* scanner.l */,
+				A1797A3C184D69560064C7CB /* test.input */,
+			);
+			path = "test-mem-nr";
+			sourceTree = "<group>";
+		};
+		A1797A3D184D69560064C7CB /* test-mem-r */ = {
+			isa = PBXGroup;
+			children = (
+				A1797A3E184D69560064C7CB /* Makefile */,
+				A1797A3F184D69560064C7CB /* Makefile.am */,
+				A1797A40184D69560064C7CB /* Makefile.in */,
+				A1797A41184D69560064C7CB /* scanner.l */,
+				A1797A42184D69560064C7CB /* test.input */,
+			);
+			path = "test-mem-r";
+			sourceTree = "<group>";
+		};
+		A1797A43184D69560064C7CB /* test-multiple-scanners-nr */ = {
+			isa = PBXGroup;
+			children = (
+				A1797A44184D69560064C7CB /* main.c */,
+				A1797A45184D69560064C7CB /* Makefile */,
+				A1797A46184D69560064C7CB /* Makefile.am */,
+				A1797A47184D69560064C7CB /* Makefile.in */,
+				A1797A48184D69560064C7CB /* scanner-1.l */,
+				A1797A49184D69560064C7CB /* scanner-2.l */,
+			);
+			path = "test-multiple-scanners-nr";
+			sourceTree = "<group>";
+		};
+		A1797A4A184D69560064C7CB /* test-multiple-scanners-r */ = {
+			isa = PBXGroup;
+			children = (
+				A1797A4B184D69560064C7CB /* main.c */,
+				A1797A4C184D69560064C7CB /* Makefile */,
+				A1797A4D184D69560064C7CB /* Makefile.am */,
+				A1797A4E184D69560064C7CB /* Makefile.in */,
+				A1797A4F184D69560064C7CB /* scanner-1.l */,
+				A1797A50184D69560064C7CB /* scanner-2.l */,
+			);
+			path = "test-multiple-scanners-r";
+			sourceTree = "<group>";
+		};
+		A1797A51184D69560064C7CB /* test-noansi-nr */ = {
+			isa = PBXGroup;
+			children = (
+				A1797A52184D69560064C7CB /* Makefile */,
+				A1797A53184D69560064C7CB /* Makefile.am */,
+				A1797A54184D69560064C7CB /* Makefile.in */,
+				A1797A55184D69560064C7CB /* scanner.l */,
+				A1797A56184D69560064C7CB /* test.input */,
+			);
+			path = "test-noansi-nr";
+			sourceTree = "<group>";
+		};
+		A1797A57184D69560064C7CB /* test-noansi-r */ = {
+			isa = PBXGroup;
+			children = (
+				A1797A58184D69560064C7CB /* Makefile */,
+				A1797A59184D69560064C7CB /* Makefile.am */,
+				A1797A5A184D69560064C7CB /* Makefile.in */,
+				A1797A5B184D69560064C7CB /* scanner.l */,
+				A1797A5C184D69560064C7CB /* test.input */,
+			);
+			path = "test-noansi-r";
+			sourceTree = "<group>";
+		};
+		A1797A5D184D69560064C7CB /* test-posix */ = {
+			isa = PBXGroup;
+			children = (
+				A1797A5E184D69560064C7CB /* Makefile */,
+				A1797A5F184D69560064C7CB /* Makefile.am */,
+				A1797A60184D69560064C7CB /* Makefile.in */,
+				A1797A61184D69560064C7CB /* scanner.l */,
+			);
+			path = "test-posix";
+			sourceTree = "<group>";
+		};
+		A1797A62184D69560064C7CB /* test-posixly-correct */ = {
+			isa = PBXGroup;
+			children = (
+				A1797A63184D69560064C7CB /* Makefile */,
+				A1797A64184D69560064C7CB /* Makefile.am */,
+				A1797A65184D69560064C7CB /* Makefile.in */,
+				A1797A66184D69560064C7CB /* scanner.l */,
+			);
+			path = "test-posixly-correct";
+			sourceTree = "<group>";
+		};
+		A1797A67184D69560064C7CB /* test-prefix-nr */ = {
+			isa = PBXGroup;
+			children = (
+				A1797A68184D69560064C7CB /* Makefile */,
+				A1797A69184D69560064C7CB /* Makefile.am */,
+				A1797A6A184D69560064C7CB /* Makefile.in */,
+				A1797A6B184D69560064C7CB /* README */,
+				A1797A6C184D69560064C7CB /* scanner.l */,
+				A1797A6D184D69560064C7CB /* test.input */,
+			);
+			path = "test-prefix-nr";
+			sourceTree = "<group>";
+		};
+		A1797A6E184D69560064C7CB /* test-prefix-r */ = {
+			isa = PBXGroup;
+			children = (
+				A1797A6F184D69560064C7CB /* Makefile */,
+				A1797A70184D69560064C7CB /* Makefile.am */,
+				A1797A71184D69560064C7CB /* Makefile.in */,
+				A1797A72184D69560064C7CB /* README */,
+				A1797A73184D69560064C7CB /* scanner.l */,
+				A1797A74184D69560064C7CB /* test.input */,
+			);
+			path = "test-prefix-r";
+			sourceTree = "<group>";
+		};
+		A1797A75184D69560064C7CB /* test-pthread */ = {
+			isa = PBXGroup;
+			children = (
+				A1797A76184D69560064C7CB /* Makefile */,
+				A1797A77184D69560064C7CB /* Makefile.am */,
+				A1797A78184D69560064C7CB /* Makefile.in */,
+				A1797A79184D69560064C7CB /* scanner.l */,
+				A1797A7A184D69560064C7CB /* test-1.input */,
+				A1797A7B184D69560064C7CB /* test-2.input */,
+				A1797A7C184D69560064C7CB /* test-3.input */,
+				A1797A7D184D69560064C7CB /* test-4.input */,
+				A1797A7E184D69560064C7CB /* test-5.input */,
+			);
+			path = "test-pthread";
+			sourceTree = "<group>";
+		};
+		A1797A7F184D69560064C7CB /* test-quotes */ = {
+			isa = PBXGroup;
+			children = (
+				A1797A80184D69560064C7CB /* Makefile */,
+				A1797A81184D69560064C7CB /* Makefile.am */,
+				A1797A82184D69560064C7CB /* Makefile.in */,
+				A1797A83184D69560064C7CB /* scanner.l */,
+				A1797A84184D69560064C7CB /* test.input */,
+			);
+			path = "test-quotes";
+			sourceTree = "<group>";
+		};
+		A1797A85184D69560064C7CB /* test-reject */ = {
+			isa = PBXGroup;
+			children = (
+				A1797A86184D69560064C7CB /* Makefile */,
+				A1797A87184D69560064C7CB /* Makefile.am */,
+				A1797A88184D69560064C7CB /* Makefile.in */,
+				A1797A89184D69560064C7CB /* scanner.l */,
+				A1797A8A184D69560064C7CB /* test.input */,
+			);
+			path = "test-reject";
+			sourceTree = "<group>";
+		};
+		A1797A8B184D69560064C7CB /* test-rescan-nr */ = {
+			isa = PBXGroup;
+			children = (
+				A1797A8C184D69560064C7CB /* Makefile */,
+				A1797A8D184D69560064C7CB /* Makefile.am */,
+				A1797A8E184D69560064C7CB /* Makefile.in */,
+				A1797A8F184D69560064C7CB /* scanner.l */,
+				A1797A90184D69560064C7CB /* test.input */,
+			);
+			path = "test-rescan-nr";
+			sourceTree = "<group>";
+		};
+		A1797A91184D69560064C7CB /* test-rescan-r */ = {
+			isa = PBXGroup;
+			children = (
+				A1797A92184D69560064C7CB /* Makefile */,
+				A1797A93184D69560064C7CB /* Makefile.am */,
+				A1797A94184D69560064C7CB /* Makefile.in */,
+				A1797A95184D69560064C7CB /* scanner.l */,
+				A1797A96184D69560064C7CB /* test.input */,
+			);
+			path = "test-rescan-r";
+			sourceTree = "<group>";
+		};
+		A1797A97184D69560064C7CB /* test-string-nr */ = {
+			isa = PBXGroup;
+			children = (
+				A1797A98184D69560064C7CB /* Makefile */,
+				A1797A99184D69560064C7CB /* Makefile.am */,
+				A1797A9A184D69560064C7CB /* Makefile.in */,
+				A1797A9B184D69560064C7CB /* scanner.l */,
+			);
+			path = "test-string-nr";
+			sourceTree = "<group>";
+		};
+		A1797A9C184D69560064C7CB /* test-string-r */ = {
+			isa = PBXGroup;
+			children = (
+				A1797A9D184D69560064C7CB /* Makefile */,
+				A1797A9E184D69560064C7CB /* Makefile.am */,
+				A1797A9F184D69560064C7CB /* Makefile.in */,
+				A1797AA0184D69560064C7CB /* scanner.l */,
+			);
+			path = "test-string-r";
+			sourceTree = "<group>";
+		};
+		A1797AA1184D69560064C7CB /* test-table-opts */ = {
+			isa = PBXGroup;
+			children = (
+				A1797AA2184D69560064C7CB /* Makefile */,
+				A1797AA3184D69560064C7CB /* Makefile.am */,
+				A1797AA4184D69560064C7CB /* Makefile.in */,
+				A1797AA5184D69560064C7CB /* scanner.l */,
+				A1797AA6184D69560064C7CB /* test.input */,
+			);
+			path = "test-table-opts";
+			sourceTree = "<group>";
+		};
+		A1797AA7184D69560064C7CB /* test-top */ = {
+			isa = PBXGroup;
+			children = (
+				A1797AA8184D69560064C7CB /* main.c */,
+				A1797AA9184D69560064C7CB /* Makefile */,
+				A1797AAA184D69560064C7CB /* Makefile.am */,
+				A1797AAB184D69560064C7CB /* Makefile.in */,
+				A1797AAC184D69560064C7CB /* scanner.l */,
+				A1797AAD184D69560064C7CB /* test.input */,
+			);
+			path = "test-top";
+			sourceTree = "<group>";
+		};
+		A1797AAE184D69560064C7CB /* test-yyextra */ = {
+			isa = PBXGroup;
+			children = (
+				A1797AAF184D69560064C7CB /* Makefile */,
+				A1797AB0184D69560064C7CB /* Makefile.am */,
+				A1797AB1184D69560064C7CB /* Makefile.in */,
+				A1797AB2184D69560064C7CB /* scanner.l */,
+				A1797AB3184D69560064C7CB /* test.input */,
+			);
+			path = "test-yyextra";
+			sourceTree = "<group>";
+		};
+		A1797AB6184D69570064C7CB /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				A1797AB7184D69570064C7CB /* git2cl */,
+				A1797AB8184D69570064C7CB /* Makefile */,
+				A1797AB9184D69570064C7CB /* Makefile.am */,
+				A1797ABA184D69570064C7CB /* Makefile.in */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1797868184D5C0D0064C7CB /* cs410final2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1797872184D5C0D0064C7CB /* Build configuration list for PBXNativeTarget "cs410final2" */;
+			buildPhases = (
+				A1797865184D5C0D0064C7CB /* Sources */,
+				A1797866184D5C0D0064C7CB /* Frameworks */,
+				A1797867184D5C0D0064C7CB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cs410final2;
+			productName = cs410final2;
+			productReference = A1797869184D5C0D0064C7CB /* cs410final2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1797861184D5C0D0064C7CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Andrew Dopson";
+			};
+			buildConfigurationList = A1797864184D5C0D0064C7CB /* Build configuration list for PBXProject "cs410final2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A1797860184D5C0D0064C7CB;
+			productRefGroup = A179786A184D5C0D0064C7CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1797868184D5C0D0064C7CB /* cs410final2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1797865184D5C0D0064C7CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A179786D184D5C0D0064C7CB /* cs410LexPortion.l in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1797870184D5C0D0064C7CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A1797871184D5C0D0064C7CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A1797873184D5C0D0064C7CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A1797874184D5C0D0064C7CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1797864184D5C0D0064C7CB /* Build configuration list for PBXProject "cs410final2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1797870184D5C0D0064C7CB /* Debug */,
+				A1797871184D5C0D0064C7CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1797872184D5C0D0064C7CB /* Build configuration list for PBXNativeTarget "cs410final2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1797873184D5C0D0064C7CB /* Debug */,
+				A1797874184D5C0D0064C7CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1797861184D5C0D0064C7CB /* Project object */;
+}
