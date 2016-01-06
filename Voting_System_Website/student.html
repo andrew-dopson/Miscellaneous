@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+		
+        <title>
+		Morgantown University Voting System
+        </title>
+        
+		
+        <!--jquery import-->
+        <script src="js/jquery-1.9.1.min.js">
+        </script>
+		<script src="js/jquery-ui-1.9.2.custom.min.js">
+        </script>
+		<script src="js/student.js">
+        </script>
+		
+		<!--css import-->
+        <link rel="stylesheet" href="css/jquery-ui-1.10.2.custom.min.css" />
+		<link rel="stylesheet" href="css/student.css" />
+		
+	<link rel="stylesheet" href="css/image.css" />
+
+</head>
+
+<body>
+	<img class = "img" src="res/title.jpg">
+	<br><br><br><br><br><br><br><br><br>
+	<div class="spacer">
+	<!--have student and election comissioner things missing until .js file reveals them according to #-->
+	<h1 class ="title">Student Page</h1>
+	<div id="studentBox">
+	<ul id = "menu">
+	<h5>    Current Elections</h5>
+		<li>
+			<a href="#">Studnet Government Election</a>
+			<ul>
+				<li><a href="voteBallotSGA.html">View Ballot</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="#">Mr. and Mrs. Murca' Election</a>
+			<ul>
+				<li><a href="voteBallotMurca.html">View Ballot</a></li>
+			</ul>
+		</li>
+	</ul>
+	</div>
+	<div id="buttondiv" >
+		<button id="settings" onClick="settingsClick()">Settings</button>
+		<button id="electionManager" onClick="emClick()">Election Manager</button>
+	</div>
+	</div>
+	</body>
+	
+</html>

@@ -1,0 +1,118 @@
+/**Oskar Otoya
+  * Account.java
+  * */
+
+public class Account
+{
+  private Customer c;
+  private String accountNumber;
+  private double balance;
+  private Transaction[] history= new Transaction[100];
+  int i = 0;
+  
+  /**Null constructor creates an acocunt with no parameters*/
+  public Account(){}
+  /**constructor creates an Account Object
+    * pre: must contain valid parameters
+    * post: Account is created
+    * responses: error terminate for incorrect parameters
+    * @param: o the customer
+    *         acctNum a string containing the acct number
+    *         bal the initial balance
+    * */
+  public Account(Object o, String acctNum, double bal)
+  {
+    c = (Customer)o;
+    accountNumber = acctNum;
+    balance = bal;
+  }
+  
+  /**adds money to the account balance
+    * records a new transaction in []history
+    * pre: must be a valid amount
+    * post: Account balance is recalculated
+    * @param: amt the amount to deposit
+    *         o the transaction to pe processed and added to []history
+    * */
+  public void deposit(double amt, Object o)
+  {
+    balance+=amt;
+    Transaction t = (Transaction) o;
+    history[i]=t;
+    i++;
+  }
+    
+  /** checks balance, if balance is >= than amt
+    * then amt is subtracted from balance and a new Transaction is
+    * recorded in []history
+    * pre: must be a valid amount
+    * post: Account balance is recalculated
+    * responses: prints "Insufficient funds!" is amt >= balance
+    * @param: amt the amount to deposit
+    *         o the transaction to pe processed and added to []history
+    * */
+  public void withdraw(double amt, Object o)
+  {
+    
+    if (balance < amt)
+      System.out.println("Insufficient Funds!");
+    else
+    {
+      balance = balance-amt;
+      Transaction t = (Transaction) o;
+      history[i]=t;
+      i++;
+    }
+  }
+  
+  /**gets the account number
+    * @return: accountNumber the string containing the number
+    * */
+  public String getAccountNumber(){return accountNumber;}
+  
+  /**gets the balance
+    * @return: balance the accounts balance
+    * */
+  public double getBalance(){return balance;}
+  
+   /**gets the Customer
+    * @return: c the customer object
+    * */
+  public Customer getCustomer(){return c;}
+ 
+ /**gets the history
+    * @return: the string containing the history
+    * */
+  public String getHistory()
+  {
+    for (Transaction t: history)
+      return(t.processTransaction());
+    return null;
+  }
+
+  
+  /** converts the account info in a string
+    * @return the string containing account number and balance
+    * */
+  public String toString()
+  {
+    return ("Account number:\t"+accountNumber
+              +"\nBalance:\t"+balance);
+  }
+  /**adds the interest on an account
+    * */
+  public void addInterest()
+  {
+    
+  }
+  
+  /**sets the customer for the account
+    * pre: must be a valid account
+    * post: customer = o
+    * @param: o the new customer to be set
+    * */
+  public void setCustomer(Object o)
+  {
+    c = (Customer)o;
+  }
+}

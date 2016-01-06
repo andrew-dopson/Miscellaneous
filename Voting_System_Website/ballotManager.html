@@ -1,0 +1,69 @@
+<html>
+	<head>
+        <meta charset="utf-8" />
+		
+        <title>
+		Ballot Manager
+        </title>
+        
+		
+        <!--jquery import-->
+        <script src="js/jquery-1.9.1.min.js">
+        </script>
+		<script src="js/jquery-ui-1.9.2.custom.min.js">
+        </script>
+		<script src="js/ballotManager.js">
+        </script>
+		
+		<!--css import-->
+		<link rel="stylesheet" href="css/jquery-ui-1.10.2.custom.min.css" />
+		<link rel="stylesheet" href="css/ballotManager.css" />
+	<link rel="stylesheet" href="css/image.css" />
+
+</head>
+
+<body>
+	<img class = "img" src="res/title.jpg">
+	<div class="spacer">
+	<h1 class = "title"> Mr. and Mrs. Murca' Election </h1>
+	<h3 class = "title"> Ballot Manager </h3>
+	<br>
+	<br>
+	<div class = "boxes">
+	<label>Open Date: <input type="text" id="datepicker" /></label>
+	<label> Time: </label> <input name = "text" type = "textbox">
+	</div>
+	<br>
+	<div class = "boxes">
+	<label>Close Date: <input type="text" id="datepicker" /></label>
+	<label> Time: </label> <input name = "text" type = "textbox">
+	<br>
+	<br>
+	<label> Current Ballot: N/A </label>
+	</div>
+	<br>
+	<br>
+	<div id="ballotDiv">
+		<input class="button" type ="button" value="View" onclick="click1()"></button>
+		<label class = "label"> Ballot 1 </label>
+		<input class= "radio" type="radio" id="radio1" name="radio" checked="checked"><label for="radio1"> </label><br>
+		<input class="button" type ="button" value="View" onclick="click2()"></button>
+		<label class = "label"> Ballot 2 </label>
+		<input class= "radio" type="radio" id="radio2" name="radio" ><label for="radio2"> </label><br>
+		<input class="button" type ="button" value="View" onclick="click3()"></button>
+		<label class = "label"> Ballot 3 </label>
+		<input class= "radio" type="radio" id="radio3" name="radio" ><label for="radio3"> </label><br>
+		<input class="button" type ="button" value="View" onclick="click4()"></button>
+		<label class = "label" > Ballot 4 </label>
+		<input class= "radio" type="radio" id="radio4" name="radio" ><label for="radio4"> </label><br>
+	</div>
+	<br>
+	<br>
+	<div class = "buttonDiv">
+	<input class = "button" type="button" value="Create" onclick="create()">
+	<input class = "button" type="button" value="Delete" onclick="deleted()">
+	</div>
+	</div>
+	
+	</body>
+</html>

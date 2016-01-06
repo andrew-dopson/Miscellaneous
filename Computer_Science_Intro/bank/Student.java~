@@ -1,0 +1,57 @@
+
+
+public class Student extends Customer
+{
+  private double SAVINGS_INTEREST = 1.0/365.0;
+  private double CHECK_INTEREST = 1.5/365.0;
+  private double CHECK_CHARGE = 1.0;
+  private double OVERDRAFT_PENALTY = 10.0;
+ /**null constructor*/
+  public Student(){}
+  
+    /** creates a student customer
+    * pre: must be given valid input
+    * post: a new customer is created
+    * @param: n the name
+    *         a the address
+    *         p the phone number
+    *         custNum the customer number
+    *         age the customer age
+    * */
+  public Student(String n, String a, String p, String custNum, int custAge)
+  {
+    super(n,a,p,custNum,custAge);
+  }
+  
+  /** gets the savings interest
+    * @return: SAVINGS_INTEREST
+    * */
+  public double getSavingsInterest()
+  {
+    return SAVINGS_INTEREST;
+  }
+  
+    /** gets the Checking interest
+    * @return: CHECKING_INTEREST
+    * */
+  public double getCheckingInterest()
+  {
+    return CHECK_INTEREST;
+  }
+  
+    /** gets the check charge
+    * @return: CHECK_CHARGE
+    * */
+  public double getCheckCharge()
+  {
+    return CHECK_CHARGE;
+  }
+  
+    /** gets the overdraft penalty
+    * @return: OVERDRAFT_PENALTY
+    * */
+  public double getOverDraftPenalty()
+  {
+    return OVERDRAFT_PENALTY;
+  } 
+}

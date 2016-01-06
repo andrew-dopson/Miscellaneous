@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+		
+        <title>
+		Select User
+        </title>
+        
+		
+        <!--jquery import-->
+        <script src="js/jquery-1.9.1.min.js">
+        </script>
+		<script src="js/jquery-ui-1.9.2.custom.min.js">
+        </script>
+		<script src="js/index.js">
+		</script>
+		
+		<!--css import-->
+		<link rel="stylesheet" href="css/jquery-ui-1.10.2.custom.min.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/image.css" />
+		
+    </head>
+    
+    
+    <body>
+	<img class = "img" src="res/title.jpg">
+	<br><br><br><br><br><br><br><br><br>
+	<div class="spacer">
+	<h1 class="title">Choose User</h1>
+	
+	<div id="accordion">
+	  <h3>Student</h3>
+	  <div>
+		<p>Student will have access to the following functions:</p>
+		<ul>
+			<li>Select Election</li>
+			<li>Display Election</li>
+			<li>Cast Ballot</li>
+			<li>Modify Notifications</li>
+		</ul>
+	  </div>
+	  <h3>Election Comissioner</h3>
+	  <div>
+		<p>Election Comissioner will have access to all Student fucntions, including the following functions:</p>
+		<ul>
+			<li>Create Ballot</li>
+			<li>Modify/Delete Ballot</li>
+		</ul>
+	  </div>
+	  <h3>Head of Student Organizations</h3>
+	  <div>
+		<p>Head of Student Organizations will have access to the following functions:</p>
+		<ul>
+			<li>Disqualify Votes</li>
+			<li>Verify Elections</li>
+			<li>Audit Ballot</li>
+			<li>Appoint Comissioner</li>
+			<li>Generate Statical Summaries</li>
+		</ul>
+	  </div>
+	</div>
+	
+	<div id="buttondiv" >
+	<button id="button" onClick="buttonClick()">Select</button>
+	</div>
+	</div>
+	</body>
+	
+</html>
+    

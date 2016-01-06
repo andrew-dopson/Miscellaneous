@@ -1,0 +1,34 @@
+/**Oskar Otoya
+  * CS111 Outside Lab 
+  * Transaction.java
+  * */
+
+public class Transaction
+{
+  private String accountNumber;
+  private String transactionType;
+  private double amount;
+  private double date;
+
+  /**creates a Transaction
+  * pre must be given valid date
+  * post a new transaction is created
+  * @param acctnum string
+  *        transType string
+  *        amt double
+  *        day double
+  * */
+  public Transaction(String acctNum, String transType, double amt, double day)
+  {    
+   accountNumber = acctNum;
+   transactionType = transType;
+   amount = amt;
+   date = day;
+  }
+  /*@return the transaction as as string*/
+  public String processTransaction()
+  { 
+    return "Account number: "+"\t"+accountNumber+"\n" +"Date: "+"\t"+date
+      +"\n"+"Type: "+"\t"+ transactionType+"\n"+"Amount: "+"\t"+amount;
+  }
+}

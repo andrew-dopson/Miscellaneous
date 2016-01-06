@@ -1,0 +1,35 @@
+/* Andrew Dopson
+   Lab3 - CS 111
+   Section 002
+   09/10/2012 */
+
+import java.util.Scanner;
+
+public class dopson3
+{
+    public static void main(String[] args)
+    {
+	int n = 0;
+	String word = null;
+	Scanner input = new Scanner(System.in);
+
+	System.out.println("Please enter a valid integer: ");
+	n = input.nextInt();
+	System.out.println("The value for 2^n is: " + exp(n));
+
+	System.out.println("Please enter a word you would like in reverse: ");
+	word = input.next();
+	System.out.println("You're word, " + word + ", spelled backwards is: " + reverse(word));
+
+    }
+
+    public static int exp(int n)
+    {
+
+    }
+
+    public static String reverse(String word)
+    {
+
+    }
+}

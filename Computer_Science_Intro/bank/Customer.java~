@@ -1,0 +1,93 @@
+/**Oskar Otoya
+  * CS111 Outside Lab 
+  * Customer.java
+  * */
+public class Customer
+{
+  private String name;
+  private String address;
+  private int age;
+  private String phoneNumber;
+  private String customerNumber;
+  /**null constructor*/
+  public Customer(){}
+ 
+  /** creates a new customer
+    * pre: must be given valid input
+    * post: the customer is created
+    * responses: erroneous data for bad input
+    * @param: n the name as a string
+    *         a the address as a string
+    *         p the phone number as a string
+    *         custNum the customernumber as a String
+    *         age the customer number as an int
+    * */
+  public Customer(String n, String a, String p, String custNum, int custAge)
+  {
+    name = n;
+    address= a;
+    phoneNumber = p;
+    age = custAge;
+  }
+  
+  /*gets name
+   * @return String name 
+   * */
+  public String getName(){return name;}
+   
+  /*gets address
+   * @return string address 
+   * */
+  public String getAddress(){return address;}
+
+  /*gets phone number
+   * @return 
+   * */
+  public String getPhoneNumber(){return phoneNumber;}
+   
+  /*gets customer number
+   * @return  customernumber
+   * */
+  public String getCustomerNumber(){return customerNumber;}
+   
+  /*gets age 
+   * @return age
+   * */
+  public int getAge(){return age;}
+   
+  /*sets name
+   * @param 
+   * */
+  public void setName(String n)
+  {
+    name = n;
+  }
+   /*sets address
+   * @param address 
+   * */
+  public void setAddress(String a)
+  {
+    address = a;    
+  }
+   /*sets phone number
+   * @param phone number
+   * */
+  public void setPhoneNumber(String p)
+  {
+    phoneNumber = p;
+  }
+   /*sets customer number
+   * @param customernumber 
+   * */
+  public void setCustomerNumber(String c)
+  {
+    customerNumber = c;
+  }
+   /*sets age
+   * @param age 
+   * */
+  public void setAge(int a)
+  {
+    age = a;       
+  }
+}

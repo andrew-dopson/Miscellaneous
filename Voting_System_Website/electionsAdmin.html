@@ -1,0 +1,75 @@
+<html>
+	<head>
+        <meta charset="utf-8" />
+		
+        <title>
+		Elections Admin
+        </title>
+        
+		
+        <!--jquery import-->
+        <script src="js/jquery-1.9.1.min.js">
+        </script>
+		<script src="js/jquery-ui-1.9.2.custom.min.js">
+        </script>
+		<script src="js/electionAdmin.js">
+        </script>
+
+
+		
+		<!--css import-->
+		<link rel="stylesheet" href="css/jquery-ui-1.10.2.custom.min.css" />
+		<link rel="stylesheet" href="css/electionsAdmin.css" />
+		<link rel="stylesheet" href="css/image.css" />
+		
+    </head>
+	
+	<body>
+	
+	<img class = "img" src="res/title.jpg">
+	<div class="spacer">
+	<h1 class = "title"> Elections Admin </h1>
+	
+	<h3 id = "instruct">Select Election Below to Manage that Election or Create A New One </h3>
+	
+	<div id="accordion">
+	  <h3>Studnet Government Election</h3>
+	  <div>
+		<ul>
+			<li><button class = "button" id = "1" onclick="buttonClick(this)">Disqualify Votes</button></li>
+			<li><button class = "button" id = "1" onclick="buttonClick2(this)">Verify Election</button></li>
+			<li><button class = "button" id = "1" onclick="buttonClick3(this)">Audit Ballot</button></li>
+			<li><button class = "button" id = "1" onclick="buttonClick4(this)">Appoint Election Comissioner</button></li>
+			<li><button class = "button" id = "1" onclick="buttonClick5(this)">Generate Statistical Summary</button></li>
+		</ul>
+	  </div>
+	  <h3>Homecoming King/Queen Election</h3>
+	  <div>
+		<ul>
+			<li><button class = "button" id = "2" onclick="buttonClick(this)">Disqualify Votes</button></li>
+			<li><button class = "button" id = "2" onclick="buttonClick2(this)">Verify Election</button></li>
+			<li><button class = "button" id = "2" onclick="buttonClick3(this)">Audit Ballot</button></li>
+			<li><button class = "button" id = "2" onclick="buttonClick4(this)">Appoint Election Comissioner</button></li>
+			<li><button class = "button" id = "2" onclick="buttonClick5(this)">Generate Statistical Summary</button></li>
+		</ul>
+	  </div>
+	  <h3>Mr. and Mrs. Murca' Election</h3>
+	  <div>
+		<ul>
+			<li><button class = "button" id = "3" onclick="buttonClick(this)">Disqualify Votes</button></li>
+			<li><button class = "button" id = "3" onclick="buttonClick2(this)">Verify Election</button></li>
+			<li><button class = "button" id = "3" onclick="buttonClick3(this)">Audit Ballot</button></li>
+			<li><button class = "button" id = "3" onclick="buttonClick4(this)">Appoint Election Comissioner</button></li>
+			<li><button class = "button" id = "3" onclick="buttonClick5(this)">Generate Statistical Summary</button></li>
+		</ul>
+	  </div>
+	  <h3>Create Election</h3>
+	  <div>
+		<ul>
+			<li><button class="button" id = "4" onclick="buttonClick6(this)">Create New Election</button></li>
+		</ul>
+	  </div>
+	</div>
+	</div>
+	</body>
+</html>

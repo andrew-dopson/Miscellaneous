@@ -1,0 +1,20 @@
+/**Oskar Otoya
+  * CheckingAccount.java
+  * */
+
+public class CheckingAccount extends Account
+{
+  /** creates a new account of type CheckingAccount
+    * pre: must be given valid input
+    * post: account is created
+    * responses: erroneous data for invalid input
+    * @param: o the customer
+    *         acctNum the account number as a String
+    *         bal the balance
+    * */
+  public CheckingAccount(Object o, String acctNum, double bal)
+  {
+    super(o, acctNum, bal);
+  }
+  
+}

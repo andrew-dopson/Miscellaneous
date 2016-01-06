@@ -1,0 +1,23 @@
+#menu, #menu ul , #menu li {
+	padding: 0;
+	margin: 0;
+	}
+	
+#menu ul{
+	list-style-type: none;
+	background: #000000;
+	padding-bottom: 0;
+	padding-top: 0;
+	padding-left: 20;
+	padding-right: 20;
+	width: 120;
+	height: 30;
+	display: block;
+}
+
+#menu a {
+	color: #FFFFFF
+	text-decoration: none;
+	
+	}
+	

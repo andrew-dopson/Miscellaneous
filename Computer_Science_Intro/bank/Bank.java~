@@ -1,0 +1,253 @@
+/** Oskar Otoya
+  * CS111 Outside Lab
+  * Bank.java
+  * */
+import java.util.Scanner;
+
+public class Bank
+{
+  public static Scanner scan = new Scanner(System.in);
+  public static Account[] myBank = new Account[100];
+  public static int i = 0;
+  public static boolean done = false; 
+  
+  /**makes appropriate calls to use the bank functions
+    * */
+  public static void main(String[] args)
+  {
+    System.out.println("Welcome to the Bank");
+
+    while(!done)
+    {
+      showMenu();
+      makeChoice();
+      System.out.println();
+    }
+  }
+  
+  /**prints the menu of choices for the bank
+    * */
+  public static void showMenu()
+  {
+    System.out.println("|*******************************************|");
+    System.out.println("|******************Menu****************|");
+    System.out.println("| 1) Add an account                         |");
+    System.out.println("| 2) Make a deposit                         |");
+    System.out.println("| 3) Make a withdrawal                      |");
+    System.out.println("| 4) Show balance                           |");
+    System.out.println("| 5) Show transactions                      |");
+    System.out.println("| 6) Show accounts                          |");
+    System.out.println("| 7) Add interest                           |");
+    System.out.println("| 8) Exit                                   |");
+    System.out.println("|*******************************************|");   
+    System.out.println("|*******************************************|");    
+  }
+  
+  /**gets user input for customer info and account data
+    *also determins what type of customer is created by handling the age input
+    * pre: must give valid input
+    * post: a customer and and an account is created
+    * responses: error terminate for bad data
+    */
+  public static void addAccount()
+  {
+    scan = new Scanner(System.in);
+    Customer myCustomer = new Customer();
+    Account myAccount = new Account();
+    System.out.println("Enter your name: ");
+    String name = scan.nextLine();
+    myCustomer.setName(name);
+    System.out.println("Enter your address: ");
+    myCustomer.setAddress(scan.nextLine());
+    System.out.println("Enter your phone number: ");
+    myCustomer.setPhoneNumber(scan.nextLine());
+    System.out.println("Enter your desired customer number: ");
+    myCustomer.setCustomerNumber(scan.nextLine());
+    System.out.println("Enter your age: ");
+    int age = scan.nextInt();
+    if (age<=25)
+    {
+      myCustomer = new Student(myCustomer.getName(), 
+                             myCustomer.getAddress(),
+                             myCustomer.getPhoneNumber(), 
+                             myCustomer.getCustomerNumber(), age);
+    }
+    else if (age<=62)
+    {
+      myCustomer = new Adult(myCustomer.getName(), 
+                           myCustomer.getAddress(),
+                           myCustomer.getPhoneNumber(), 
+                           myCustomer.getCustomerNumber(),age);
+    }
+    
+    else
+    {
+      myCustomer = new Senior(myCustomer.getName(), 
+                            myCustomer.getAddress(),
+                            myCustomer.getPhoneNumber(), 
+                            myCustomer.getCustomerNumber(),age);
+    }
+    scan = new Scanner(System.in);
+    System.out.println("Enter your desired account number: ");
+    String an = scan.nextLine();
+    System.out.println("Enter your starting balance: ");
+    double b = scan.nextDouble();
+    System.out.println("What type of account would you like to create?"
+                         +"\n Enter 1 for Savings"
+                         +"\n Enter 2 for Checking");
+    int c = scan.nextInt();
+    if (c==1)
+     myAccount = new SavingsAccount(myCustomer, an, b);
+    else
+     myAccount = new CheckingAccount(myCustomer, an, b);
+    myBank[i]=myAccount;
+    i++;
+    System.out.println("Your account had been added");
+    System.out.println(myAccount);
+    //System.out.println(myCustomer.getAddress());
+    
+  }
+ 
+  /**handles user menu selection
+    * calls appropriate methods based on user input
+    * pre: must make a valid choice
+    * post: appropriate method is called
+    * responses: program exits for an invalid choice
+    */
+  public static void makeChoice()
+  {
+    int n = scan.nextInt();
+    switch (n)
+    {
+      case 1:
+        addAccount();
+        break;
+      case 2:
+        makeDeposit();
+        break;
+      case 3:
+        makeWithdrawal();
+        break;
+      case 4:
+        determineBalance();
+        break;
+      case 5:
+        displayTransactions();
+        break;
+      case 6:
+        displayAccounts();
+        break;
+      case 7:
+        //addInterest();
+        break;
+      case 8:
+      default:
+        System.out.println("Thanks for banking with us!");
+        done = true;
+        break;
+    }
+  }
+
+  /** calls appropriate methods to withdraw money from an account
+    * gets user input for account number and amount to withdraw
+    * pre: must give valid input
+    * post: account info is updated
+    * responses: errorterminate for invalid input
+    * */
+  public static void makeWithdrawal()
+  {
+    System.out.println("Enter the day of the month as an integer: ");
+    int date = scan.nextInt();
+    System.out.println("Enter the account number: ");
+    String acctNum = scan.next();
+    Account a = (Account)getAccount(acctNum);
+    System.out.println("Enter the amount you'd like to withdraw: ");
+    double amt = scan.nextDouble();
+    Transaction t = new Transaction( acctNum, "Withdrawal", amt, date);
+    a.withdraw(amt,t);
+    System.out.println("Your transaction has been processed"); 
+    System.out.println(a.getBalance());
+  }
+  
+    /** calls appropriate methods to deposit money into an account
+    * gets user input for account number and amount to deposit
+    * pre: must give valid input
+    * post: account info is updated
+    * responses: errorterminate for invalid input
+    * */
+  public static void makeDeposit()
+  {
+    System.out.println("Enter the day of the month as an integer: ");
+    int date = scan.nextInt();
+    System.out.println("Enter the account number: ");
+    String acctNum = scan.next();
+    Account a = (Account)getAccount(acctNum);
+    System.out.println("Enter the amount you'd like to deposit: ");
+    double amt = scan.nextDouble();
+    Transaction t = new Transaction( acctNum, "Deposit", amt, date);
+    a.deposit(amt,t);
+    System.out.println("Your transaction has been processed"); 
+    System.out.println(a.getBalance());
+  }
+  
+  /**asks user for acocunt number and
+   * prints the account balance to the screen
+    * pre:must give a valid account number
+    * resopnses: error termiate for bad input
+    * */
+  public static void determineBalance()
+  {
+  System.out.println("Enter the account number: ");
+  Account a = (Account)getAccount(scan.next());
+  System.out.println("Balance for account "+a.getAccountNumber()+":"+"\t"+"$"+a.getBalance());
+  }
+  
+  /**gets account number and prints the transactions on that
+    * account to the screen
+    * pre: must guve a valid account number
+    * post: transactions are printed
+    * */
+  public static void displayTransactions()
+  {
+    System.out.println("Enter the account number: ");
+    Account a = (Account)getAccount(scan.next());
+    System.out.println(a.getHistory());
+  }
+  /**gets customer number and prints their account info
+    * pre must be a valid customer number
+    * */
+  public static void displayAccounts()
+  {
+    System.out.println("Please enter your customer number: ");
+    String custNum = scan.next();
+    for (Account a: myBank)
+    {
+      if (custNum.equals(a.getCustomer().getCustomerNumber()))
+      System.out.println(a.toString());
+    }
+  }
+ // public static void addInterest()
+  //{
+  //  System.out.println("Enter the account number: ");
+  //  Account a = getAccount(scan.next());
+  //  System.out.println("How many days have would you like to add interest for: ");
+  //  a.addInterest();
+  //}
+  
+  /**takes an acct num and gets the Account from []mybank
+    * pre: must give a valid number
+    * post: account is returned
+    * @param: acctNum th account number
+    * @return: the account with the same account number
+    * */
+  public static Account getAccount(String acctNum)
+  {
+    for (Account a: myBank)
+    {
+      if (a.getAccountNumber().equals(acctNum))
+      return a;
+      else return a;
+    }
+    return null;
+  }
+}

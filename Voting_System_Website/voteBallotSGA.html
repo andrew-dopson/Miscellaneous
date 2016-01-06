@@ -1,0 +1,88 @@
+<html>
+	<head>
+        <meta charset="utf-8" />
+		
+        <title>
+		SGA Election
+        </title>
+        
+		
+        <!--jquery import-->
+        <script src="js/jquery-1.9.1.min.js">
+        </script>
+		<script src="js/jquery-ui-1.9.2.custom.min.js">
+        </script>
+		<script src="js/confirmationSGA.js">
+        </script>
+		
+		<!--css import-->
+		<link rel="stylesheet" href="css/jquery-ui-1.10.2.custom.min.css" />
+		<link rel="stylesheet" href="css/ballot.css" />
+		
+    </head>
+	
+	<body>
+	<h1 class = "title"> Student Government Association Election 2012 - 2013 </h1>
+	<br>
+	<br>
+	<div class = "buttonDiv">
+		<input class = "button" type="button" value="The Party" onClick="party1(document.list)">
+		<input class = "button" type="button" value="Revolution Party" onClick="party2(this)">
+	</div>
+	<br>
+	<br>
+	<form name="form">
+	<div class="list">
+		<label class = "label"> Mucino </label>
+		<input class= "radio" type="radio" id="radio1" name="radio" checked="checked"><label for="radio1"> </label><br>
+		<label class = "label"> Ryan Campione </label>
+		<input class= "radio" type="radio" id="radio2" name="radio"><label for="radio2"> </label><br>
+	</div>
+	<br>
+	<br>
+    <form>
+	<div class="list">
+		<label class = "label"> Guy </label>
+		<input class= "radio" type="radio" id="radio3" name="radio1" checked="checked"><label for="radio3"> </label><br>
+		<label class = "label"> Ben Seebaugh </label>
+		<input class= "radio" type="radio" id="radio4" name="radio1" ><label for="radio4"> </label><br>
+	</div>
+    </form>
+    <br>
+	<br>
+    <form>
+	<div class="list">
+		<label class = "label"> John Barringer</label>
+		<input class= "radio" type="radio" id="radio5" name="radio1" checked="checked"><label for="radio5"> </label><br>
+		<label class = "label"> Spenser Wempe</label>
+		<input class= "radio" type="radio" id="radio6" name="radio1" ><label for="radio6"> </label><br>
+	</div>
+    </form>
+    <br>
+	<br>
+	<div class="list">
+		<label class = "label"> Paul Garton </label>
+		<input class= "radio" type="radio" id="radio7" name="radio1" checked="checked"><label for="radio7"> </label><br>
+		<label class = "label"> John Williams </label>
+		<input class= "radio" type="radio" id="radio8" name="radio1" ><label for="radio8"> </label><br>
+	</div>
+    </form>
+    <br>
+	<br>
+    <form>
+	<div class="list">
+		<label class = "label"> Molly Callaghan </label>
+		<input class= "radio" type="radio" id="radio9" name="radio1" checked="checked"><label for="radio9"> </label><br>
+		<label class = "label"> Joy Wang </label>
+		<input class= "radio" type="radio" id="radio10" name="radio1" ><label for="radio10"> </label><br>
+	</div>
+	</form>
+	<br>
+	<br>
+	<div class = "buttonDiv">
+	<input class = "button" type="button" value="Vote" onClick="back()">
+	</div>
+	
+	
+	</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+		
+        <title>
+		Select User
+        </title>
+        
+		
+        <!--jquery import-->
+        <script src="js/jquery-1.9.1.min.js">
+        </script>
+		<script src="js/jquery-ui-1.9.2.custom.min.js">
+        </script>
+		<script src="js/settings.js">
+        </script>
+		
+		<!--css import-->
+		<link rel="stylesheet" href="css/jquery-ui-1.10.2.custom.min.css" />
+		<link rel="stylesheet" href="css/settings.css"/>
+	<link rel="stylesheet" href="css/image.css" />
+
+</head>
+
+<body>
+	<img class = "img" src="res/title.jpg">
+	<br><br><br><br><br><br><br><br><br>
+	<div class="spacer">
+		<h1 class="title">Change Notification Options</h1>
+		<div id= "corey">
+			<form>
+			<input type="checkbox" name="setting1" value="Bike">Email me when new elections are available.
+			<br>
+			<input type="checkbox" name="setting2" value="Car">Text me when new elections are avalable.
+			</form>
+		</div>
+		<br>
+		<div id = "buttonDiv">
+		<input type="button" class="button" id="save" onClick="save()" value ="Save"/>
+		</div>
+		</div>
+	</body>
+	
+</html>

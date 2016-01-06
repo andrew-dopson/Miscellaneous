@@ -1,0 +1,17 @@
+#accordion{
+padding: 20px;
+}
+#buttondiv{
+text-align: center;
+}
+.title{
+text-align: center;
+}
+body {
+	background-image:url('muvs_large_trans.png');
+	background-position:center top; 
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-repeat: no-repeat;
+	}

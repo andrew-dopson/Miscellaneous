@@ -1,0 +1,77 @@
+<html>
+	<head>
+        <meta charset="utf-8" />
+		
+        <title>
+		Ballot 1
+        </title>
+        
+		
+        <!--jquery import-->
+        <script src="js/jquery-1.9.1.min.js">
+        </script>
+		<script src="js/jquery-ui-1.9.2.custom.min.js">
+        </script>
+		<script src="js/ballot.js">
+        </script>
+		
+		<!--css import-->
+		<link rel="stylesheet" href="css/jquery-ui-1.10.2.custom.min.css" />
+		<link rel="stylesheet" href="css/ballot.css" />
+	<link rel="stylesheet" href="css/image.css" />
+
+</head>
+
+<body>
+	<img class = "img" src="res/title.jpg">
+	<div class="spacer">
+	<h1 class = "title"> Ballot 1 </h1>
+	<br>
+	<br>
+	<div class = "buttonDiv">
+		<input class = "button" type="button" value="Party 1" onclick="party1(document.list)">
+		<input class = "button" type="button" value="Party 2" onclick="party2(this)">
+	</div>
+	<br>
+	<br>
+	<form name="form">
+	<div class="list">
+		<label class = "label"> Candidate 1 </label>
+		<input class= "radio" type="radio" id="radio1" name="radio" checked="checked"><label for="radio1"> </label><br>
+		<label class = "label"> Candidate 2 </label>
+		<input class= "radio" type="radio" id="radio2" name="radio" ><label for="radio2"> </label><br>
+		<label class = "label"> Candidate 3 </label>
+		<input class= "radio" type="radio" id="radio3" name="radio" ><label for="radio3"> </label><br>
+		<label class = "label" > Candidate 4 </label>
+		<input class= "radio" type="radio" id="radio4" name="radio" ><label for="radio4"> </label><br>
+	</div>
+	<br>
+	<br>
+	<div class="list">
+		<label class = "label"> Candidate 1 </label>
+		<input class= "radio" type="radio" id="radio5" name="radio1" checked="checked"><label for="radio5"> </label><br>
+		<label class = "label"> Candidate 2 </label>
+		<input class= "radio" type="radio" id="radio6" name="radio1" ><label for="radio6"> </label><br>
+		<label class = "label"> Candidate 3 </label>
+		<input class= "radio" type="radio" id="radio7" name="radio1" ><label for="radio7"> </label><br>
+		<label class = "label" > Candidate 4 </label>
+		<input class= "radio" type="radio" id="radio8" name="radio1" ><label for="radio8"> </label><br>
+	</div>
+	</form>
+	<br>
+	<br>
+	<br>
+	<div class = "buttonDiv">
+		<input class = "button" type="button" value="Vote" >
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class = "buttonDiv">
+	<input class = "button" type="button" value="Back" onclick="back()">
+	</div>
+	</div>
+	
+	</body>
+</html>

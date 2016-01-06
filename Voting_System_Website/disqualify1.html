@@ -1,0 +1,50 @@
+<html>
+
+<head>
+<meta charset="utf-8" />
+		
+    <title>
+	Disqualify Votes #1
+    </title>
+        
+		
+    <!--jquery import-->
+    <script src="js/jquery-1.9.1.min.js">
+    </script>
+	<script src="js/jquery-ui-1.9.2.custom.min.js">
+    </script>
+	<script src="js/disqualify.js">
+    </script>
+		
+	<!--css import-->
+	<link rel="stylesheet" href="css/jquery-ui-1.10.2.custom.min.css" />
+	<link rel="stylesheet" href="css/disqualify.css" />
+	<link rel="stylesheet" href="css/image.css" />
+
+</head>
+
+<body>
+	<img class = "img" src="res/title.jpg">
+	<div class="spacer">
+
+	<h1 class="title">Student Gorvernment Elections</h1>
+	<h3 class="title">Disqualify Votes</h3>
+<input class = "button" type="button" name="Check_All" value="Check All"
+onClick="CheckAll(document.myform.check_list)">
+<input class = "button" type="button" name="Un_CheckAll" value="Uncheck All"
+onClick="UnCheckAll(document.myform.check_list)">
+<form name="myform" action="checkboxes.asp" method="post"><br>
+<input class ="check" type="checkbox" name="check_list" value="1">Dakota Kirby<br>
+<input class ="check" type="checkbox" name="check_list" value="2">Adam Duncan<br>
+<input class ="check" type="checkbox" name="check_list" value="3">Corey Hartley<br>
+<input class ="check" type="checkbox" name="check_list" value="4">Tom Blaschak<br>
+<input class ="check" type="checkbox" name="check_list" value="5">Andrew Dobson<br><br>
+
+
+
+<input class = "button" type="button" name="disqualify" value="Disqualify Vote(s)"
+onClick="disqaulify()">
+</div>
+</body>
+
+</html>
