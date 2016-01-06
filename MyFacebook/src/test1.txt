@@ -1,0 +1,31 @@
+friendadd root
+viewby root
+friendadd Bob
+friendadd Billy
+friendadd Buck
+listadd Bnames
+listadd Anames
+friendadd Andy
+friendadd Anthony
+friendlist Andy Anames
+friendlist Anthony Anames
+friendlist Bob Bnames
+friendlist Billy Bnames
+friendlist Buck Bnames
+logout
+viewby Andy
+postpicture AndyLikesIceCream.txt
+chmod AndyLikesIceCream.txt rw rw --
+writecomments AndyLikesIceCream.txt I really like ice cream!
+chlst AndyLikesIceCream.txt Anames
+logout
+viewby root
+chown AndyLikesIceCream.txt Adrian
+logout
+viewby Anthony
+readcomments AndyLikesIceCream.txt
+logout 
+viewby Billy
+readcomments AndyLikesIceCream.txt
+logout
+end

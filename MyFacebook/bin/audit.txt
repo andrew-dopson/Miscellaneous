@@ -1,0 +1,35 @@
+Friend root added.
+root is now viewing the profile.
+Friend Chuck added.
+Friend Charlie added.
+Friend Chris added.
+List, Cnames, was added to the list of lists.
+List, Dnames, was added to the list of lists.
+Friend Danny added.
+Friend Drew added.
+Danny was added to the list: Dnames
+Drew was added to the list: Dnames
+Chuck was added to the list: Cnames
+Charlie was added to the list: Cnames
+Chris was added to the list: Cnames
+root has logged out
+Andrew is not in the list of friends.
+Drew is now viewing the profile.
+Picture: D.txt, added with owner: Drew, and default permissions added
+Friend Drew wrote a comment to D.txt:
+I'm the best
+D.txt's list changed to: Dnames
+Permissions for: D.txt set to: rw r- -- by: Drew
+Drew has logged out
+Chris is now viewing the profile.
+Friend Chris denied read access to D.txt
+Chris has logged out
+Danny is now viewing the profile.
+Friend Danny reads D.txt as:
+D.txt
+I'm the best
+Friend Danny denied write access to D.txt
+Friend Danny reads D.txt as:
+D.txt
+I'm the best
+Danny has logged out

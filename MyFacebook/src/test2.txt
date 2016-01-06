@@ -1,0 +1,31 @@
+friendadd root
+viewby root
+friendadd Chuck
+friendadd Charlie
+friendadd Chris
+listadd Cnames
+listadd Dnames
+friendadd Danny
+friendadd Drew
+friendlist Danny Dnames
+friendlist Drew Dnames
+friendlist Chuck Cnames
+friendlist Charlie Cnames
+friendlist Chris Cnames
+logout
+viewby Andrew
+viewby Drew
+postpicture D.txt
+writecomments D.txt I'm the best
+chlst D.txt Dnames
+chmod D.txt rw r- --
+logout
+viewby Chris
+readcomments D.txt
+logout
+viewby Danny
+readcomments D.txt
+writecomments D.txt I'm the worst
+readcomments D.txt
+logout 
+end
